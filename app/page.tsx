@@ -6,7 +6,7 @@ import Footer from "@/components/sections/Footer";
 
 function Page() {
   return (
-    <main>
+    <main className="page">
       <Header />
       <HeroSection />
       <ProjectsSection />
