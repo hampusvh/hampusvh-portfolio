@@ -1,0 +1,24 @@
+.hero-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+/* Temporary visuals */
+.hero-description {
+  border: 1px dashed rgba(255,255,255,0.2);
+  padding: 16px;
+}
+
+/* Temporary visuals */
+.hero-avatar {
+  border: 1px dashed rgba(255,255,255,0.2);
+  padding: 16px;
+}
+
+.hero .container {
+  background: var(--bg-section);
+  border-radius: 24px;
+  padding: 48px;
+}

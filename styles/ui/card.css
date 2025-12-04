@@ -1,0 +1,12 @@
+.card {
+  background: var(--bg-section);
+  border-radius: 16px;
+  padding: 24px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover {
+  background: var(--surface-elevated);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
