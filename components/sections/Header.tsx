@@ -1,3 +1,5 @@
+import "@/styles/sections/header.css";
+
 function Header() {
   return (
     <header className="site-header">

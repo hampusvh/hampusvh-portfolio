@@ -1,3 +1,5 @@
+import "@/styles/sections/stack.css";
+
 function StackSection() {
   return (
 <section className="section stack">
