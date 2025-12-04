@@ -1,3 +1,4 @@
+import Avatar from "@/components/ui/Avatar";
 import "@/styles/sections/hero.css";
 
 function HeroSection() {
@@ -25,7 +26,7 @@ function HeroSection() {
           </div>
 
           <div className="hero-avatar">
-            <p>Avatar</p>
+            <Avatar />
           </div>
         </div>
       </div>
