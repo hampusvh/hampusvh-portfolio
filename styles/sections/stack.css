@@ -1,0 +1,15 @@
+.stack-grid {
+  display: grid;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.stack-group h3 {
+  margin: 0 0 4px 0;
+  color: var(--text-strong);
+}
+
+.stack-group p {
+  margin: 0;
+  color: var(--text-main);
+}
