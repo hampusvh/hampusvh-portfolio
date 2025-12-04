@@ -3,6 +3,8 @@
 :root {
   --bg-page: var(--gray-10);
   --bg-section: var(--gray-20);
+  --surface-elevated: var(--gray-30);
+
 
   --text-strong: var(--gray-100);
   --text-main: var(--gray-80);

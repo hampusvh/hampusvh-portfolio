@@ -1,9 +1,11 @@
 function Header() {
   return (
-    <header>
+    <header className="site-header">
+        <div className="container">
       <nav>
         <p>Header</p>
       </nav>
+        </div>
     </header>
   );
 }

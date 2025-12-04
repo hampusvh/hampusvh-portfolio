@@ -1,7 +1,9 @@
 function Footer() {
   return (
-    <footer>
-      <p>© {new Date().getFullYear()} Hampus von Horn</p>
+    <footer className="site-footer">
+      <div className="container">
+        <p>© {new Date().getFullYear()} Hampus von Horn</p>
+      </div>
     </footer>
   );
 }

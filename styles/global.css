@@ -34,3 +34,7 @@ body {
 .site-footer {
   padding-block: 16px;
 }
+
+.hero .container {
+  background: var(--surface-elevated);
+}
