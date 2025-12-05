@@ -18,48 +18,6 @@ body {
 
 }
 
-/* Grå rök / dimma i toppen */
-body::before {
-  content: "";
-  position: fixed;
-  inset: -18%;
-  pointer-events: none;
-  z-index: -1;
-
-  background:
-    /* mjuk, neutral dimma i mitten/toppen */
-    radial-gradient(circle at 50% -10%,
-      rgba(190, 200, 210, 0.06),
-      transparent 60%),
-    /* lite mörkare rök från vänster */
-    radial-gradient(circle at 0% 35%,
-      rgba(70, 80, 95, 0.06),
-      transparent 55%);
-}
-
-/* Djup + svag jade-ton längst ner */
-body::after {
-  content: "";
-  position: fixed;
-  inset: -18%;
-  pointer-events: none;
-  z-index: -2;
-
-  background:
-    /* väldigt subtil jade-glow nedre höger */
-    radial-gradient(circle at 80% 125%,
-      rgba(45, 173, 139, 0.15),
-      transparent 70%),
-    /* lite neutral rök nedre mitten */
-    radial-gradient(circle at 50% 120%,
-      rgba(10, 12, 18, 0.25),
-      transparent 75%),
-    /* generell mörk vignette */
-    linear-gradient(180deg,
-      #05060a 0%,
-      #03040a 60%,
-      #010206 100%);
-}
 
 
 .page {

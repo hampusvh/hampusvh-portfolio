@@ -1,15 +1,37 @@
+.hero {
+  padding-block: 64px;
+
+  background:
+    /* svag blå nebulosa uppe till höger */
+    radial-gradient(circle at 78% 5%,
+      rgba(80, 120, 200, 0.14),
+      transparent 60%),
+    /* svag lila dimma lite mer åt mitten */
+    radial-gradient(circle at 45% -10%,
+      rgba(140, 100, 200, 0.08),
+      transparent 65%),
+    /* generell mörk vertikal ton */
+    linear-gradient(180deg,
+      #05060a 0%,
+      #04050d 55%,
+      #020307 100%);
+}
+
+
 .hero-layout {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
   align-items: center;
+
 }
 
 .hero .container {
-  background: var(--bg-section);
-  border-radius: 24px;
-  padding: 48px;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
 }
+
 
 .hero-actions {
   display: flex;
