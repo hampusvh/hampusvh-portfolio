@@ -1,0 +1,10 @@
+.site-footer {
+    padding-block: 24px;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

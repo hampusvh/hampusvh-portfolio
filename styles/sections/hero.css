@@ -10,3 +10,8 @@
   border-radius: 24px;
   padding: 48px;
 }
+
+.hero-actions {
+  display: flex;
+  flex-direction: row;
+}
