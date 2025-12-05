@@ -1,10 +1,10 @@
 @import "./tokens.css";
 
 :root {
-  --bg-page: var(--gray-5);
+  --bg-page: var(--gray-0);
+  --bg-header: var(--gray-0);
   --bg-section: var(--gray-10);
   --surface-elevated: var(--gray-30);
-
 
   --text-strong: var(--gray-100);
   --text-main: var(--gray-80);
