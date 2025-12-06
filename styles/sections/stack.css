@@ -1,3 +1,7 @@
+.stack {
+  border-top: 1px solid black;
+}
+
 .stack-grid {
   display: grid;
   gap: 32px;
