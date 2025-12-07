@@ -3,10 +3,28 @@
   border-radius: 16px;
   padding: 24px;
   transition: background 0.15s ease, transform 0.15s ease;
+  background: #191c22;
+}
+
+.card h3 {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.card h3::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 28px;
+  /* längden på linjen */
+  height: 2px;
+  background: rgba(80, 200, 170, 0.4);
+  /* teal, men ganska svag */
+  border-radius: 999px;
 }
 
 .card:hover {
   background: var(--surface-elevated);
-  transform: translateY(-2px);
   cursor: pointer;
 }

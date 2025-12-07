@@ -1,5 +1,6 @@
 .stack {
   border-top: 1px solid black;
+  padding-block: 48px;
 }
 
 .stack-grid {

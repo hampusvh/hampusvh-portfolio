@@ -1,16 +1,15 @@
 .projects {
   position: relative;
   padding-block: 72px 80px;
-  background: linear-gradient(180deg,
-      #05070b 0%,
-      #04050a 40%,
-      #020306 100%);
+  background: transparent;
   color: var(--text-main);
-  ;
-
+  overflow: hidden;
 }
 
 .projects-grid {
+  position: relative;
+  z-index: 1;
+
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
