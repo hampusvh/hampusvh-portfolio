@@ -90,3 +90,20 @@ Blue/Green mist background (projects.css)
 .project-description {
   color: var(--text-muted);
 }
+
+------------------------------------------------
+
+Oval subtle turquoise glow:
+
+.projects::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(ellipse 60% 35% at 50% 60%,
+      rgba(0, 255, 200, 0.15),
+      transparent 70%);
+  opacity: 0.6;
+}

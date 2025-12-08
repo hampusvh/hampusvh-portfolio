@@ -3,6 +3,7 @@
 :root {
   --bg-page: var(--gray-0);
   --bg-header: var(--gray-0);
+  --bg-footer: var(--gray-0);
   --bg-section: var(--gray-10);
   --surface-elevated: var(--gray-30);
 
@@ -14,6 +15,7 @@
 
   --bg-page: #080A0F;
 
-
+  --accent-teal: hsl(185, 40%, 60%);
+  --accent-amber: hsl(35, 90%, 65%);
 
 }
