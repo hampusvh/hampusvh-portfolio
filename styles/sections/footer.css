@@ -1,5 +1,6 @@
 .site-footer {
     padding-block: 24px;
+    background: var(--bg-footer);
 }
 
 .footer-inner {
