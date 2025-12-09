@@ -1,17 +1,28 @@
 .card {
-  border-radius: 16px;
+  position: relative;
+  border-radius: 14px;
   padding: 24px;
-  transition: background 0.15s ease, transform 0.15s ease;
-  background: #191c22;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(15, 18, 23, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 8px 18px rgba(0, 0, 0, 0.35);
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s ease;
 }
 
 .card:hover {
+  transform: translateY(-2px);
+
+  background: rgba(18, 22, 28, 0.95);
+
   box-shadow:
-    0 0 10px hsl(160 60% 45% / 0.20),
-    0 0 20px hsl(160 60% 45% / 0.12),
-    inset 0 0 4px hsl(160 60% 45% / 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+    0 6px 14px rgba(0, 0, 0, 0.40),
+    0 16px 26px rgba(0, 0, 0, 0.50);
+
+
   cursor: pointer;
 }

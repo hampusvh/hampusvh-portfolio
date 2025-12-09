@@ -3,13 +3,11 @@
   background: transparent;
 }
 
-
 .hero-layout {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
   align-items: center;
-
 }
 
 .hero .container {
@@ -18,7 +16,6 @@
   padding-inline: 24px;
 }
 
-
 .hero-actions {
   display: flex;
   flex-direction: row;
@@ -26,7 +23,6 @@
 }
 
 .hero-actions a {
-
   background: linear-gradient(90deg,
       hsl(140 35% 60%),
       hsl(155 30% 52%),
@@ -37,6 +33,32 @@
   filter: drop-shadow(0 0 4px hsl(150 40% 30% / 0.25)) drop-shadow(0 0 8px hsl(185 50% 35% / 0.15));
 }
 
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.hero-link:hover {
+  color: var(--accent-teal, #4fd1c5);
+}
+
+.hero-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.85;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.hero-link:hover .hero-icon {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
 
 .hero-text {
   color: var(--text-muted)
@@ -44,7 +66,6 @@
 
 .hero-avatar img {
   display: block;
-  /* för Chromium/WebKit */
   -webkit-mask-image: linear-gradient(to bottom,
       transparent 0%,
       black 15%,
@@ -52,7 +73,6 @@
       transparent 100%);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
-  /* för Firefox (standard) */
   mask-image: linear-gradient(to bottom,
       transparent 0%,
       black 15%,
