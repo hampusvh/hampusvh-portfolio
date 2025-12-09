@@ -1,5 +1,8 @@
 import Avatar from "@/components/ui/Avatar";
 import "@/styles/sections/hero.css";
+import { GitHubIcon } from "@/components/icons/GitHubIcon";
+import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
+
 
 function HeroSection() {
   return (
@@ -21,16 +24,27 @@ function HeroSection() {
             </p>
 
             <div className="hero-actions">
-              <a href="https://github.com/hampusvh" className="hero-link">
-                <img src="/icons/github.svg" alt="GitHub" className="hero-icon" />
-                GitHub
-              </a>
-              <a href="https://linkedin.com/in/hampusvh" className="hero-link">
-                <img src="/icons/linkedin.svg" alt="LinkedIn" className="hero-icon" />
-                LinkedIn
+              <a
+                href="https://github.com/DITT_USERNAME"
+                className="hero-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <GitHubIcon className="hero-icon" />
+                <span>GitHub</span>
               </a>
 
+              <a
+                href="https://www.linkedin.com/in/DITT_USERNAME"
+                className="hero-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LinkedInIcon className="hero-icon" />
+                <span>LinkedIn</span>
+              </a>
             </div>
+
           </div>
 
           <div className="hero-avatar">
