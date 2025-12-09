@@ -10,17 +10,19 @@ body {
   min-height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background:
-    /* mer koncentrerat ljus runt hero + projects */
     radial-gradient(circle at 50% 50%,
-      /* mitten av sidan istället för längre ner */
       rgba(40, 120, 110, 0.075),
       transparent 58%),
     #0a0d11;
 
   color: var(--text-main);
-  font: var(--text-style-body);
+  font-family: var(--font-space-grotesk);
   position: relative;
 }
 

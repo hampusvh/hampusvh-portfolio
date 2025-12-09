@@ -3,7 +3,7 @@ import "@/styles/sections/projects.css";
 
 function ProjectsSection() {
   return (
-    <section className="section projects">
+    <section id="projects" className="section projects">
       <div className="container">
         <h2 className="section-title">Projects</h2>
         <div className="projects-grid">

@@ -15,7 +15,26 @@
 
   --bg-page: #080A0F;
 
+  /* TESTING */
   --accent-teal: hsl(185, 40%, 60%);
   --accent-amber: hsl(35, 90%, 65%);
+
+  --accent-teal: hsl(170 65% 65%);
+  --accent-teal-soft: hsl(170 45% 55%);
+
+  /* CONTENT HIGHLIGHT (AMBER) */
+  --accent-amber: hsl(35 80% 72%);
+  /* project card titles */
+  --accent-amber-soft: hsl(35 65% 65%);
+  /* "Projects" rubrik */
+
+  /* BORDERS / UI */
+  --border-soft: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
+
+  /* PANELS */
+  --panel-strong: rgba(0, 0, 0, 0.22);
+  /* Projects panel */
+  --panel-soft: rgba(0, 0, 0, 0.15);
 
 }

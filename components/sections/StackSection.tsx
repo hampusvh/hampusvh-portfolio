@@ -2,7 +2,7 @@ import "@/styles/sections/stack.css";
 
 function StackSection() {
   return (
-    <section className="section stack">
+    <section id="stack" className="section stack">
       <div className="container">
         <h2 className="section-title">Tech Stack</h2>
 
