@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portrait from "@/public/avatar.png";
+import portrait from "@/public/images/avatar.png";
 
 function Avatar() {
   return (

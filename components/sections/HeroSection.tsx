@@ -15,17 +15,21 @@ function HeroSection() {
             <h1>Hampus von Horn</h1>
 
             <p className="hero-text">
-              I’m a frontend developer with a strong focus on creating stable, secure and well-crafted web experiences.
-
-              I care about clarity – in design, in code, and in how things feel to use.
-              I enjoy taking ideas from rough sketches to polished, reliable interfaces, and I’m especially motivated by building things that people trust and enjoy interacting with.
-
-              My background in web security helps me think a little deeper about the details, and I bring that mindset into every project I build.
+              I’m a React-focused frontend developer who enjoys turning ideas into clean, dependable interfaces.
+              I care about clarity in design, in the code, and in how things feel to use.
+              I approach every project with a focus on stability, security, and long-term maintainability.
             </p>
 
             <div className="hero-actions">
-              <a href="#">View GitHub</a>
-              <a href="#">LinkedIn</a>
+              <a href="https://github.com/hampusvh" className="hero-link">
+                <img src="/icons/github.svg" alt="GitHub" className="hero-icon" />
+                GitHub
+              </a>
+              <a href="https://linkedin.com/in/hampusvh" className="hero-link">
+                <img src="/icons/linkedin.svg" alt="LinkedIn" className="hero-icon" />
+                LinkedIn
+              </a>
+
             </div>
           </div>
 
