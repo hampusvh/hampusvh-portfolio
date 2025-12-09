@@ -1,13 +1,14 @@
 .projects {
   position: relative;
-  padding-block: 28px 80px;
+  padding-block: 12px 92px;
   background: transparent;
   color: var(--text-main);
   overflow: hidden;
-  border-top: 1px solid black;
 }
 
-
+.projects h2 {
+  margin-bottom: 3.5rem;
+}
 
 .projects-grid {
   position: relative;

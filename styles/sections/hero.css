@@ -1,5 +1,5 @@
 .hero {
-  padding-block: 64px;
+  padding-block: 96px 32px;
   background: transparent;
 }
 
@@ -26,10 +26,17 @@
 }
 
 .hero-actions a {
-  color: var(--text-main);
-  text-decoration: none;
-  transition: color 150ms ease, text-shadow 150ms ease;
+
+  background: linear-gradient(90deg,
+      hsl(140 35% 60%),
+      hsl(155 30% 52%),
+      hsl(165 28% 45%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 4px hsl(150 40% 30% / 0.25)) drop-shadow(0 0 8px hsl(185 50% 35% / 0.15));
 }
+
 
 .hero-text {
   color: var(--text-muted)

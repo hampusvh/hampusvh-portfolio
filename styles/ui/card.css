@@ -1,30 +1,17 @@
 .card {
-  background: var(--bg-section);
   border-radius: 16px;
   padding: 24px;
   transition: background 0.15s ease, transform 0.15s ease;
   background: #191c22;
-}
-
-.card h3 {
-  margin-bottom: 12px;
-  position: relative;
-}
-
-.card h3::after {
-  content: "";
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 28px;
-  /* längden på linjen */
-  height: 2px;
-  background: rgba(80, 200, 170, 0.4);
-  /* teal, men ganska svag */
-  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .card:hover {
-  background: var(--surface-elevated);
+  box-shadow:
+    0 0 10px hsl(160 60% 45% / 0.20),
+    0 0 20px hsl(160 60% 45% / 0.12),
+    inset 0 0 4px hsl(160 60% 45% / 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   cursor: pointer;
 }

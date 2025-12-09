@@ -4,7 +4,7 @@ function StackSection() {
   return (
     <section className="section stack">
       <div className="container">
-        <h2>Tech Stack</h2>
+        <h2 className="section-title">Tech Stack</h2>
 
         <div className="stack-grid">
           <div className="stack-group">
