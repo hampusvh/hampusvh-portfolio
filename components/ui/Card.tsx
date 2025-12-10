@@ -1,7 +1,9 @@
+import type { ReactNode } from "react";
+
 import "@/styles/ui/card.css";
 
 type CardProps = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export default function Card({ children }: CardProps) {
