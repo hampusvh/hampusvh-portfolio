@@ -3,6 +3,21 @@
   background: transparent;
 }
 
+.hero-kicker {
+  font: var(--text-style-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-muted);
+}
+
+.hero h1 {
+  font: var(--text-style-h1);
+}
+
+.hero-text {
+  font: var(--text-style-body);
+}
+
 .hero-layout {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -82,4 +97,16 @@
       transparent 100%);
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
+}
+
+.hero-kicker {
+  margin-bottom: 0.75rem;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  margin-bottom: 1.5rem;
 }

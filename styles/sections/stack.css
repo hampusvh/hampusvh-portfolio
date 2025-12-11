@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.section-title {
+  font: var(--text-style-h2);
+}
+
 .stack h2 {
   margin-bottom: 3.5rem;
 }

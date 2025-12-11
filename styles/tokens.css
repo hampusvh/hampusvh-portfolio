@@ -3,13 +3,13 @@
   --gray-h: 220;
   --gray-s: 10%;
 
-  --gray-0:   hsl(var(--gray-h) var(--gray-s) 0%);
-  --gray-5:   hsl(var(--gray-h) var(--gray-s) 5%);
-  --gray-10:  hsl(var(--gray-h) var(--gray-s) 10%);
-  --gray-20:  hsl(var(--gray-h) var(--gray-s) 20%);
-  --gray-30:  hsl(var(--gray-h) var(--gray-s) 30%);
-  --gray-60:  hsl(var(--gray-h) var(--gray-s) 60%);
-  --gray-80:  hsl(var(--gray-h) var(--gray-s) 80%);
+  --gray-0: hsl(var(--gray-h) var(--gray-s) 0%);
+  --gray-5: hsl(var(--gray-h) var(--gray-s) 5%);
+  --gray-10: hsl(var(--gray-h) var(--gray-s) 10%);
+  --gray-20: hsl(var(--gray-h) var(--gray-s) 20%);
+  --gray-30: hsl(var(--gray-h) var(--gray-s) 30%);
+  --gray-60: hsl(var(--gray-h) var(--gray-s) 60%);
+  --gray-80: hsl(var(--gray-h) var(--gray-s) 80%);
   --gray-100: hsl(var(--gray-h) var(--gray-s) 100%);
 
   /* ==== ACCENT ==== */
@@ -23,20 +23,36 @@
   --accent-primary: var(--accent-70);
 
   /* ==== TYPE SCALE ==== */
-  --ff-sans: system-ui, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI",
-    sans-serif;
+  /* Koppla till Space Grotesk-variabeln från next/font, med fallback */
+  --ff-sans: var(--font-space-grotesk, system-ui, -apple-system,
+      BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif);
 
+  /* Font sizes */
+  --fs-xs: 0.8125rem;
+  /* 13px - meta/kicker */
   --fs-sm: 0.875rem;
+  /* 14px - småtexter */
   --fs-md: 1rem;
+  /* 16px - body */
   --fs-lg: 1.25rem;
-  --fs-xl: 1.5rem;
+  /* 20px - card titles, mindre rubriker */
+  --fs-xl: 1.75rem;
+  /* 28px - section titles */
+  --fs-xxl: 3rem;
+  /* 48px - hero heading */
 
+  /* Font weights */
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-bold: 600;
 
-  --text-style-h1: var(--fw-bold) var(--fs-xl)/1.3 var(--ff-sans);
-  --text-style-h2: var(--fw-bold) var(--fs-lg)/1.35 var(--ff-sans);
-  --text-style-body: var(--fw-regular) var(--fs-md)/1.5 var(--ff-sans);
-  --text-style-meta: var(--fw-regular) var(--fs-sm)/1.4 var(--ff-sans);
+  /* Text styles */
+  --text-style-h1: var(--fw-bold) var(--fs-xxl) / 1.1 var(--ff-sans);
+  --text-style-h2: var(--fw-bold) var(--fs-xl) / 1.15 var(--ff-sans);
+  --text-style-h3: var(--fw-medium) var(--fs-lg) / 1.2 var(--ff-sans);
+
+  --text-style-body: var(--fw-regular) var(--fs-md) / 1.55 var(--ff-sans);
+  --text-style-body-sm: var(--fw-regular) var(--fs-sm) / 1.55 var(--ff-sans);
+
+  --text-style-meta: var(--fw-medium) var(--fs-xs) / 1.4 var(--ff-sans);
 }
