@@ -9,18 +9,39 @@ function StackSection() {
         <div className="stack-grid">
           <div className="stack-group">
             <h3>Frontend</h3>
-            <p>React, Next.js, TypeScript, JavaScript, Html, CSS, SAAS</p>
+            <ul>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+            </ul>
           </div>
 
           <div className="stack-group">
             <h3>Backend</h3>
-            <p>Node.js, Express, REST APIs, MongoDB</p>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>REST APIs</li>
+              <li>MongoDB</li>
+            </ul>
           </div>
 
           <div className="stack-group">
             <h3>Tools</h3>
-            <p>Git, GitHub, VS Code, Figma, Postman, Storybook</p>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>Postman</li>
+              <li>Storybook</li>
+            </ul>
           </div>
+
         </div>
       </div>
     </section>
