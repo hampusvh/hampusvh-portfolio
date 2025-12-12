@@ -11,13 +11,13 @@ function HeroSection() {
         <div className="hero-layout">
 
           <div className="hero-content">
-            <p className="hero-kicker">
+            <p className="text-meta hero-kicker">
               FRONTEND DEVELOPER · WEB SECURITY
             </p>
 
-            <h1>Hampus von Horn</h1>
+            <h1 className="heading-page">Hampus von Horn</h1>
 
-            <p className="hero-text">
+            <p className="text-body hero-text">
               I’m a React-focused frontend developer who enjoys turning ideas into clean, dependable interfaces.
               I care about clarity in design, in the code, and in how things feel to use.
               I approach every project with a focus on stability, security, and long-term maintainability.

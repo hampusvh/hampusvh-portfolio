@@ -20,9 +20,4 @@
 .header-nav a {
   color: var(--text-main);
   text-decoration: none;
-  font: var(--text-style-meta);
-}
-
-.header-actions a {
-  color: var(--accent);
 }

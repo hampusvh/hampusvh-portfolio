@@ -65,10 +65,6 @@
   margin-bottom: 3.5rem;
 }
 
-.card-title {
-  font: var(--text-style-h3);
-}
-
 .projects-grid {
   position: relative;
   z-index: 1;
@@ -78,6 +74,5 @@
 }
 
 .project-description {
-  font: var(--text-style-body-sm);
   color: var(--text-muted);
 }

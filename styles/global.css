@@ -55,14 +55,28 @@ main {
   padding-inline: 24px;
 }
 
-.section-divider {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  background: linear-gradient(to bottom,
-      rgba(0, 15, 20, 0.35),
-      transparent);
-  pointer-events: none;
+/* Typography */
+
+.heading-page {
+  font: var(--text-style-h1);
+}
+
+.heading-section {
+  font: var(--text-style-h2);
+}
+
+.heading-card {
+  font: var(--text-style-h3);
+}
+
+.text-body {
+  font: var(--text-style-body);
+}
+
+.text-body-sm {
+  font: var(--text-style-body-sm);
+}
+
+.text-meta {
+  font: var(--text-style-meta);
 }

@@ -5,13 +5,13 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <div className="header-logo">
-          <p>HVH</p>
+          <p className="text-meta">HVH</p>
         </div>
 
         <nav className="header-nav">
           <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#stack">Tech Stack</a></li>
+            <li><a className="text-meta" href="#projects">Projects</a></li>
+            <li><a className="text-meta" href="#stack">Tech Stack</a></li>
           </ul>
         </nav>
 
