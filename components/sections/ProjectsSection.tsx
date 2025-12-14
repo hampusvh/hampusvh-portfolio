@@ -27,10 +27,6 @@ function ProjectsSection() {
             <h3 className="heading-card card-title">Python Adventure Game</h3>
             <p className="text-body-sm project-description">A text-based adventure game written in Python using simple decision trees and game logic.</p>
           </Card>
-          <Card>
-            <h3 className="heading-card card-title">Coming Soon</h3>
-            <p className="text-body-sm project-description">...</p>
-          </Card>
         </div>
       </div>
     </section>

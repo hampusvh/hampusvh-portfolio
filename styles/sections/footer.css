@@ -1,11 +1,25 @@
 .site-footer {
-    padding-block: 24px;
+    position: relative;
+    padding-block: 28px;
     background: var(--bg-footer);
+}
+
+.site-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(to right,
+            transparent,
+            rgba(120, 180, 160, 0.38),
+            transparent);
 }
 
 .footer-inner {
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
 }

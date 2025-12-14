@@ -1,6 +1,20 @@
 .site-header {
   padding-block: 16px;
-  background: var(--bg-header);
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(to right,
+      transparent,
+      rgba(120, 200, 170, 0.25),
+      transparent);
 }
 
 .header-inner {
