@@ -23,7 +23,6 @@ function HeroSection() {
               I care about clarity in design, in the code, and in how things feel to use.
               I approach every project with a focus on stability, security, and long-term maintainability.
             </p>
-
             <div className="hero-actions">
               <a
                 href="https://github.com/DITT_USERNAME"

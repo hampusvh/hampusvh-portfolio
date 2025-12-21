@@ -1,5 +1,5 @@
 .stack {
-  padding-block: 20px 124px;
+  padding-block: 64px 124px;
   position: relative;
   background: transparent;
 }
@@ -10,15 +10,22 @@
 
 .stack-grid {
   display: grid;
-  grid-template-columns: repeat(3, max-content);
-  gap: 320px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 96px;
   margin-top: 24px;
 }
 
 .stack-group h3 {
-  margin: 0 0 8px 0;
-  color: var(--text-strong);
+  margin: 0 0 16px 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  opacity: 0.75;
 }
+
 
 .stack-group ul {
   list-style: none;
@@ -27,6 +34,6 @@
 }
 
 .stack-group li {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   color: var(--text-main);
 }

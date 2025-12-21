@@ -98,16 +98,6 @@
   pointer-events: none;
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: -30%;
-  background: radial-gradient(50% 50% at 85% 85%,
-      rgba(255, 140, 180, 0.03),
-      transparent 70%);
-  pointer-events: none;
-}
-
 .hero-vignette {
   position: absolute;
   inset: 0;

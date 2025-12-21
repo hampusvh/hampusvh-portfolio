@@ -1,7 +1,7 @@
 .projects {
   position: relative;
-  padding-block: 20px 92px;
-  background: rgb(0, 0, 0, 0.15);
+  padding-block: 64px 92px;
+  background: transparent;
   color: var(--text-main);
   overflow: hidden;
 }
