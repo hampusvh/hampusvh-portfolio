@@ -1,4 +1,3 @@
-import Avatar from "@/components/ui/Avatar";
 import "@/styles/sections/hero.css";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
@@ -45,10 +44,6 @@ function HeroSection() {
               </a>
             </div>
 
-          </div>
-
-          <div className="hero-avatar">
-            <Avatar />
           </div>
         </div>
       </div>
