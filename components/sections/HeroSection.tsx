@@ -7,6 +7,7 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 function HeroSection() {
   return (
     <section className="section hero">
+      <div className="hero-vignette" />
       <div className="container">
         <div className="hero-layout">
 

@@ -1,9 +1,7 @@
 .stack {
   padding-block: 20px 124px;
   position: relative;
-  background: radial-gradient(70% 40% at 50% 100%,
-      rgba(90, 120, 100, 0.035),
-      transparent 80%)
+  background: transparent;
 }
 
 .stack h2 {
