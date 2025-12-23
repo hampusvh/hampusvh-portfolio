@@ -15,7 +15,11 @@ html {
 }
 
 body {
-  background: #0f1317;
+  background:
+    linear-gradient(180deg,
+      #0a0d12 0%,
+      #0f1219 50%,
+      #0d1016 100%);
   color: var(--text-main);
   font-family: var(--font-space-grotesk);
   position: relative;
@@ -68,25 +72,4 @@ main {
 /* Section rhythm separator */
 .section {
   position: relative;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: -30%;
-  z-index: -1;
-  pointer-events: none;
-
-  background:
-    radial-gradient(45% 35% at 20% 25%,
-      rgba(90, 140, 255, 0.08),
-      transparent 70%),
-    radial-gradient(40% 40% at 80% 30%,
-      rgba(170, 120, 255, 0.06),
-      transparent 75%),
-    radial-gradient(50% 45% at 50% 80%,
-      rgba(255, 140, 180, 0.05),
-      transparent 80%);
-
-  filter: blur(60px);
 }
