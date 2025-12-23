@@ -15,11 +15,7 @@ html {
 }
 
 body {
-  background:
-    linear-gradient(180deg,
-      #0a0d12 0%,
-      #0f1219 50%,
-      #0d1016 100%);
+  background: #141922;
   color: var(--text-main);
   font-family: var(--font-space-grotesk);
   position: relative;

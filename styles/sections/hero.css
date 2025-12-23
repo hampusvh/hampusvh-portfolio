@@ -68,3 +68,33 @@
   opacity: 1;
   transform: scale(1.1);
 }
+
+.hero-backlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(600px 360px at 40% 45%,
+      rgba(120, 90, 255, 0.25),
+      transparent 70%);
+
+  filter: blur(80px);
+  opacity: 0.7;
+}
+
+.hero-surface {
+  position: relative;
+  padding: 88px 96px;
+  border-radius: 24px;
+
+  background:
+    linear-gradient(180deg,
+      rgba(18, 22, 32, 0.95),
+      rgba(12, 15, 22, 0.98));
+
+  box-shadow:
+    0 60px 140px rgba(0, 0, 0, 0.7);
+
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
