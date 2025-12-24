@@ -55,4 +55,16 @@
   --text-style-body-sm: var(--fw-regular) var(--fs-sm) / 1.55 var(--ff-sans);
 
   --text-style-meta: var(--fw-medium) var(--fs-xs) / 1.4 var(--ff-sans);
+
+  /* Identity gradient – name */
+  --identity-purple-start: #7c8cff;
+  /* blå-lila */
+  --identity-purple-end: #c084fc;
+  /* rosa-lila */
+
+  --identity-purple-gradient: linear-gradient(90deg,
+      var(--identity-purple-start),
+      var(--identity-purple-end));
+
+  --role-green: #22c55e;
 }

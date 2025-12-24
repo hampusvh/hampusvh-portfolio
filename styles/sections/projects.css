@@ -19,21 +19,22 @@
 
 
 .projects h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
+
 
 /* Featured projects layout */
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 64px;
+  gap: 80px;
   max-width: 900px;
 }
 
 /* Clickable project entry */
 .project-entry {
   display: block;
-  padding: 24px 0;
+  padding: 32px 0;
 
   color: var(--text-main);
   text-decoration: none;

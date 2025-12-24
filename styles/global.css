@@ -17,9 +17,9 @@ html {
 body {
   background:
     linear-gradient(180deg,
-      #0a0d12 0%,
-      #0f1219 50%,
-      #0d1016 100%);
+      #0f1419 0%,
+      #121820 50%,
+      #0d1216 100%);
   color: var(--text-main);
   font-family: var(--font-space-grotesk);
   position: relative;
@@ -69,7 +69,15 @@ main {
   font: var(--text-style-meta);
 }
 
-/* Section rhythm separator */
 .section {
   position: relative;
+  padding-block: 120px;
+}
+
+.section:first-of-type {
+  padding-top: 160px;
+}
+
+.section:last-of-type {
+  padding-bottom: 160px;
 }

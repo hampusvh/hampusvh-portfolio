@@ -23,12 +23,15 @@
 .hero-kicker {
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  color: var(--text-muted);
+  color: var(--role-green);
   margin-bottom: 0.75rem;
 }
 
 .hero h1 {
   margin-bottom: 1rem;
+  background: var(--identity-purple-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-text {
