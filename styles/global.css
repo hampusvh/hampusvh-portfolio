@@ -15,14 +15,7 @@ html {
 }
 
 body {
-  background:
-    linear-gradient(180deg,
-      #0a0d12 0%,
-      #0f1219 50%,
-      #0d1016 100%);
-  color: var(--text-main);
-  font-family: var(--font-space-grotesk);
-  position: relative;
+  background: #0d1117
 }
 
 .page {
@@ -35,41 +28,4 @@ body {
 
 main {
   flex: 1;
-}
-
-.container {
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: 24px;
-}
-
-/* Typography */
-
-.heading-page {
-  font: var(--text-style-h1);
-}
-
-.heading-section {
-  font: var(--text-style-h2);
-}
-
-.heading-card {
-  font: var(--text-style-h3);
-}
-
-.text-body {
-  font: var(--text-style-body);
-}
-
-.text-body-sm {
-  font: var(--text-style-body-sm);
-}
-
-.text-meta {
-  font: var(--text-style-meta);
-}
-
-/* Section rhythm separator */
-.section {
-  position: relative;
 }

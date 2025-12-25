@@ -1,37 +1,10 @@
-import localFont from "next/font/local";
-import "../styles/theme.css";
-import "../styles/global.css";
+import type { Metadata } from "next";
+import "./globals.css";
 
-import Header from "@/components/sections/Header";
-import Footer from "@/components/sections/Footer";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
-const spaceGrotesk = localFont({
-  src: [
-    {
-      path: "../public/fonts/space-grotesk/SpaceGrotesk-Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/space-grotesk/SpaceGrotesk-Medium.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/space-grotesk/SpaceGrotesk-SemiBold.ttf",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/space-grotesk/SpaceGrotesk-Bold.ttf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-space-grotesk",
-});
-
-export const metadata = {
+export const metadata: Metadata = {
   title: "Hampus von Horn",
   description: "Developer Portfolio",
 };
@@ -42,17 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={spaceGrotesk.variable}>
+    <html lang="en">
       <body>
-        <div className="page">
-          <Header />
-
-          <main>
-            {children}
-          </main>
-
-          <Footer />
-        </div>
+        <Header />
+        <main>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

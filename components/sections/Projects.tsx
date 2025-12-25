@@ -1,5 +1,5 @@
 import ProjectCard from "@/components/projects/ProjectCard";
-import { PROJECTS } from "@/data/projects";
+import { PROJECTS } from "@/data/projects.data";
 import "@/styles/sections/projects.css";
 
 const featuredProjects = PROJECTS.filter(project => project.featured);
