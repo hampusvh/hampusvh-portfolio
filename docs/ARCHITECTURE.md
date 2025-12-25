@@ -43,7 +43,7 @@ No visual styling decisions are embedded here.
 ├── styles/                 # Visuellt system (separerat från JSX)
 │   ├── tokens.css          # Färger, spacing, typografi (CSS variables)
 │   ├── theme.css           # Theme overrides (dark/light, senare)
-│   ├── globals.css         # Extra global styling (valfri)
+│   ├── global.css         # Extra global styling (valfri)
 │   │
 │   └── ui/                 # UI-specifik styling
 │       ├── card.css

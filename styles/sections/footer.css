@@ -1,7 +1,7 @@
 .site-footer {
     position: relative;
     padding-block: 28px;
-    background: var(--bg-footer);
+    background: rgba(0, 0, 0, 0.85);
 }
 
 .footer-inner {
