@@ -1,0 +1,10 @@
+.contact-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 16px;
+}
