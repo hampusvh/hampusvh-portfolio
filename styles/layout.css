@@ -1,0 +1,15 @@
+.section {
+    width: 100%;
+}
+
+.section--loose {
+    padding-block: 140px;
+}
+
+.section--normal {
+    padding-block: 96px;
+}
+
+.section--tight {
+    padding-block: 64px;
+}
