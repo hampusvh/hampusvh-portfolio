@@ -1,29 +1,39 @@
 .hero {
-  padding-block: 120px;
+  position: relative;
+  padding-top: 96px;
+  padding-bottom: 64px;
+  background:
+    linear-gradient(180deg,
+      #0d1117 0%,
+      #0c1016 55%,
+      #0b0f15 100%);
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
+  align-items: end;
+}
+
+.hero-content {
+  max-width: 560px;
+  padding-top: 16px;
 }
 
 .hero-visual {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
 .hero-avatar {
   position: relative;
+  transform: translateY(56px);
 }
 
-.hero-avatar::before {
-  content: "";
-  position: absolute;
-  inset: -40px;
-  background: radial-gradient(circle,
-      rgba(255, 255, 255, 0.06),
-      transparent 70%);
-  z-index: -1;
+.hero-avatar img {
+  mask-image: linear-gradient(to bottom,
+      black 85%,
+      transparent 100%);
 }
