@@ -1,12 +1,11 @@
-import Section from "@/components/layout/Section";
 import Container from "@/components/layout/Container";
 import "@/styles/sections/tech.css";
 
 export default function Tech() {
   return (
-    <Section>
+    <section className="tech">
       <Container>
-        <div className="tech">
+        <div className="tech-inner">
           <div className="tech-column">
             <h3>Frontend</h3>
             <ul>
@@ -38,6 +37,6 @@ export default function Tech() {
           </div>
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }

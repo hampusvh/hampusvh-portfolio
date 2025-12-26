@@ -1,0 +1,9 @@
+:root {
+    /* Base backgrounds */
+    --color-bg-page: #0d1117;
+    --color-bg-section: #0f141b;
+
+    /* Surfaces */
+    --color-surface: rgba(255, 255, 255, 0.02);
+    --color-border-soft: rgba(255, 255, 255, 0.06);
+}

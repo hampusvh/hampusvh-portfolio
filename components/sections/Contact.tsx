@@ -1,20 +1,19 @@
-import Section from "@/components/layout/Section";
 import Container from "@/components/layout/Container";
 import "@/styles/sections/contact.css";
 
 export default function Contact() {
     return (
-        <Section>
+        <section className="contact">
             <Container>
-                <div className="contact-cta">
-                    <p>Get in touch</p>
+                <div className="contact-inner">
+                    <p className="contact-eyebrow">Get in touch</p>
 
                     <div className="contact-actions">
-                        <a href="#">Email</a>
-                        <a href="#">LinkedIn</a>
+                        <a href="#" className="contact-link">Email</a>
+                        <a href="#" className="contact-link">LinkedIn</a>
                     </div>
                 </div>
             </Container>
-        </Section>
+        </section>
     );
 }

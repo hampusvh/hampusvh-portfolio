@@ -1,20 +1,21 @@
-import Section from "@/components/layout/Section";
 import Container from "@/components/layout/Container";
 import "@/styles/sections/hero.css";
 
 export default function Hero() {
   return (
-    <Section>
+    <section className="hero">
       <Container>
         <div className="hero-grid">
           <div className="hero-content">
-            <p>Eyebrow</p>
-            <h1>Hero headline</h1>
-            <p>Short introductory paragraph goes here.</p>
+            <p className="hero-eyebrow">Eyebrow</p>
+            <h1 className="hero-title">Hero headline</h1>
+            <p className="hero-description">
+              Short introductory paragraph goes here.
+            </p>
 
             <div className="hero-actions">
-              <button>Primary action</button>
-              <button>Secondary action</button>
+              <button className="btn-primary">Primary action</button>
+              <button className="btn-secondary">Secondary action</button>
             </div>
           </div>
 
@@ -23,6 +24,6 @@ export default function Hero() {
           </div>
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }

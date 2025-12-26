@@ -1,4 +1,8 @@
 .projects {
+    padding-block: 96px;
+}
+
+.projects-inner {
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -12,12 +16,4 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
-}
-
-.project-card {
-    min-height: 180px;
-}
-
-.projects-footer {
-    display: flex;
 }

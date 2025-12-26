@@ -1,4 +1,8 @@
 .tech {
+    padding-block: 96px;
+}
+
+.tech-inner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 48px;

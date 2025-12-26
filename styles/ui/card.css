@@ -1,0 +1,6 @@
+.project-card {
+    padding: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    min-height: 180px;
+}

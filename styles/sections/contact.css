@@ -1,7 +1,13 @@
-.contact-cta {
+.contact {
+    padding-block: 96px;
+}
+
+.contact-inner {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    align-items: center;
+    text-align: center;
 }
 
 .contact-actions {

@@ -1,3 +1,7 @@
+.hero {
+  padding-block: 140px;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
