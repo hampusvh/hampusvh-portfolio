@@ -1,5 +1,5 @@
 .hero {
-  padding-block: 140px;
+  padding-block: 120px;
 }
 
 .hero-grid {
@@ -14,8 +14,16 @@
   justify-content: center;
 }
 
-.hero-visual-slot {
-  width: 100%;
-  max-width: 360px;
-  aspect-ratio: 3 / 4;
+.hero-avatar {
+  position: relative;
+}
+
+.hero-avatar::before {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 0.06),
+      transparent 70%);
+  z-index: -1;
 }
