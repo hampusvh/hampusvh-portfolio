@@ -1,0 +1,23 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.projects-header {
+    max-width: 600px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.project-card {
+    min-height: 180px;
+}
+
+.projects-footer {
+    display: flex;
+}
