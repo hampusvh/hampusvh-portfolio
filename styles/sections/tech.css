@@ -1,0 +1,11 @@
+.tech {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+}
+
+.tech-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
