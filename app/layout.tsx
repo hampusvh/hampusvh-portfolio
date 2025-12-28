@@ -17,11 +17,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main>
-          {children}
-        </main>
-        <Footer />
+        <div className="page-root">
+          <div className="atmosphere-layer" />
+          <div className="content-layer">
+            <Header />
+            <main>
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );

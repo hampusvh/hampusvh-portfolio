@@ -32,3 +32,55 @@ main {
   margin-inline: auto;
   padding-inline: 32px;
 }
+
+.page-root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.page-root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.atmosphere-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.content-layer {
+  position: relative;
+  z-index: 1;
+}
+
+.atmosphere-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(1200px 600px at 70% 20%,
+      rgba(90, 140, 180, 0.08),
+      transparent 60%);
+}
+
+.atmosphere-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  background:
+    /* Ljus vid hero (det du redan har) */
+    radial-gradient(1200px 600px at 70% 20%,
+      rgba(90, 140, 180, 0.08),
+      transparent 60%),
+
+    /* Vertikalt flow nedåt */
+    radial-gradient(900px 900px at 30% 80%,
+      rgba(60, 110, 150, 0.05),
+      transparent 70%);
+}

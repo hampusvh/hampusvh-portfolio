@@ -4,3 +4,15 @@
     background: rgba(255, 255, 255, 0.03);
     min-height: 180px;
 }
+
+
+/* REMOVE LATER */
+.project-card {
+    background: rgba(18, 22, 28, 0.92);
+    border-radius: 14px;
+
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.45);
+
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
