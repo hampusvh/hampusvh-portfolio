@@ -1,19 +1,24 @@
 .hero {
   position: relative;
-  padding-top: 96px;
+  overflow: hidden;
+  padding-top: 120px;
   padding-bottom: 64px;
   background:
+    radial-gradient(900px 600px at 60% 45%,
+      rgba(255, 255, 255, 0.04),
+      transparent 60%),
     linear-gradient(180deg,
       #0d1117 0%,
       #0c1016 55%,
       #0b0f15 100%);
 }
 
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: end;
+  align-items: center;
 }
 
 .hero-content {
@@ -29,7 +34,6 @@
 
 .hero-avatar {
   position: relative;
-  transform: translateY(56px);
   mask-image: linear-gradient(to bottom,
       black 85%,
       transparent 100%);
