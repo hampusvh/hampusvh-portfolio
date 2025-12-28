@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "../styles/global.css";
+import "../styles/atmosphere.css";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -17,11 +18,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main>
-          {children}
-        </main>
-        <Footer />
+        <div className="atmosphere-root">
+          {/* Atmosfär-lagret */}
+          <div className="atmosphere-layer" />
+
+          {/* Allt innehåll */}
+          <div className="content-layer">
+            <Header />
+            <main>
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );

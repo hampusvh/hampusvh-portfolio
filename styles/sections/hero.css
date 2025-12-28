@@ -3,14 +3,7 @@
   overflow: hidden;
   padding-top: 120px;
   padding-bottom: 64px;
-  background:
-    radial-gradient(900px 600px at 60% 45%,
-      rgba(255, 255, 255, 0.04),
-      transparent 60%),
-    linear-gradient(180deg,
-      #0d1117 0%,
-      #0c1016 55%,
-      #0b0f15 100%);
+
 }
 
 
@@ -23,7 +16,6 @@
 
 .hero-content {
   max-width: 560px;
-  padding-top: 16px;
 }
 
 .hero-visual {

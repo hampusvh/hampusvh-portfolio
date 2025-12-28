@@ -1,0 +1,60 @@
+.atmosphere-root {
+    position: relative;
+    min-height: 100vh;
+    background: #0b0f14;
+    /* din mörka bas */
+    overflow: hidden;
+}
+
+.atmosphere-layer {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.content-layer {
+    position: relative;
+    z-index: 1;
+}
+
+.atmosphere-layer {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+
+    /* FÖRSTA ljuslagret */
+    background:
+        radial-gradient(1200px 600px at 50% -200px,
+            rgba(40, 90, 130, 0.12),
+            transparent 70%);
+
+    opacity: 0.7;
+}
+
+.atmosphere-layer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.25) 60%,
+            rgba(0, 0, 0, 0.45) 100%);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: -200px -200px 0 -200px;
+    pointer-events: none;
+
+    background: radial-gradient(600px 300px at 50% 0%,
+            rgba(255, 255, 255, 0.04),
+            transparent 70%);
+}
