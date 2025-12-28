@@ -30,10 +30,15 @@
 .hero-avatar {
   position: relative;
   transform: translateY(56px);
-}
-
-.hero-avatar img {
   mask-image: linear-gradient(to bottom,
       black 85%,
       transparent 100%);
+}
+
+.avatar-image {
+  width: 320px;
+  height: auto;
+  display: block;
+  filter:
+    contrast(1.05) saturate(0.95) brightness(0.98);
 }
