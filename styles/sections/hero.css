@@ -1,18 +1,16 @@
 .hero {
   position: relative;
   overflow: hidden;
-  padding-top: 120px;
-  padding-bottom: 64px;
+  padding-block: var(--section-padding-y);
   background:
-    radial-gradient(900px 600px at 60% 45%,
-      rgba(255, 255, 255, 0.04),
-      transparent 60%),
+    radial-gradient(800px 500px at 55% 40%,
+      rgba(143, 166, 184, 0.04),
+      transparent 70%),
     linear-gradient(180deg,
-      #0d1117 0%,
-      #0c1016 55%,
-      #0b0f15 100%);
+      #0D1116 0%,
+      #0C1015 65%,
+      #0B0F14 100%);
 }
-
 
 .hero-grid {
   display: grid;
@@ -24,6 +22,7 @@
 .hero-content {
   max-width: 560px;
   padding-top: 16px;
+  margin-top: -32px;
 }
 
 .hero-visual {
@@ -57,4 +56,6 @@
 
 .hero-description {
   margin-bottom: 22px;
+  max-width: 56ch;
+  margin-top: var(--stack-4);
 }

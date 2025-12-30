@@ -1,6 +1,12 @@
 .contact {
-    padding-block: 96px;
+    padding-block: 120px;
+    text-align: center;
 }
+
+.contact a {
+    font-size: 1.1rem;
+}
+
 
 .contact-inner {
     display: flex;

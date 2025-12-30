@@ -7,3 +7,15 @@
     --surface-default: var(--color-surface);
     --border-default: var(--color-border-soft);
 }
+
+:root {
+    --section-padding-y: 96px;
+    --section-padding-y-sm: 72px;
+
+    --stack-1: 8px;
+    --stack-2: 12px;
+    --stack-3: 16px;
+    --stack-4: 24px;
+    --stack-5: 32px;
+    --stack-6: 48px;
+}

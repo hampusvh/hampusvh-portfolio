@@ -1,7 +1,6 @@
 :root {
     /* Base backgrounds */
-    --color-bg-page: #0d1117;
-    --color-bg-section: #0f141b;
+    --color-bg-page: #0D1116;
 
     /* Surfaces */
     --color-surface: rgba(255, 255, 255, 0.02);

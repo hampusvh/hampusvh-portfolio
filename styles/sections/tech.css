@@ -1,24 +1,28 @@
 .tech {
-    padding-block: 96px;
+    padding-block: var(--section-padding-y);
 }
 
 .tech-inner {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: var(--stack-6);
+    /* ~48px */
 }
 
 .tech-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 48px;
+    gap: var(--stack-6);
+    /* ~48px */
 }
 
 .tech-column {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 24px;
+    gap: var(--stack-3);
+    /* ~16px */
+    padding: var(--stack-5);
+    /* ~32px eller justera till 24px via token */
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -26,36 +30,39 @@
 
 .tech-title {
     margin: 0;
-    /* spacing only */
+    opacity: 0.9;
 }
 
 .tech-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    gap: 10px;
-    /* spacing only */
+    display: flex;
+    flex-direction: column;
+    gap: var(--stack-2);
+    /* ~12px */
 }
 
 @media (max-width: 1000px) {
     .tech-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 28px;
+        gap: var(--stack-5);
+        /* ~32px */
     }
 }
 
 @media (max-width: 640px) {
     .tech {
-        padding-block: 72px;
+        padding-block: var(--section-padding-y-sm);
     }
 
     .tech-inner {
-        gap: 32px;
+        gap: var(--stack-5);
     }
 
     .tech-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: var(--stack-4);
+        /* ~24px */
     }
 }

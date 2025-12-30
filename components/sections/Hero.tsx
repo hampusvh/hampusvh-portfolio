@@ -23,8 +23,12 @@ export default function Hero() {
             </p>
 
             <div className="hero-actions">
-              <button className="btn-primary">Primary action</button>
-              <button className="btn-secondary">Secondary action</button>
+              <a href="#projects" className="btn-primary">
+                View projects
+              </a>
+              <a href="#contact" className="btn-secondary">
+                Contact
+              </a>
             </div>
           </div>
 
