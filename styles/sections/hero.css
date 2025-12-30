@@ -46,3 +46,15 @@
   filter:
     contrast(1.05) saturate(0.95) brightness(0.98);
 }
+
+.hero-eyebrow {
+  margin-bottom: 14px;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  margin-bottom: 22px;
+}

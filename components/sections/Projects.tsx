@@ -10,16 +10,20 @@ export default function Projects() {
         <div className="projects-inner">
           <div className="projects-header">
             <h2>Projects</h2>
-            <p>Selected work and experiments.</p>
+            <p className="text-2">Selected work and experiments.</p>
           </div>
-
           <div className="projects-grid">
             {PROJECTS.map((project: Project) => (
               <ProjectCard
                 key={project.id}
                 title={project.title}
+                description={project.description}
+                tags={project.tags}
+                repoUrl={project.repoUrl}
+                featured={project.featured}
               />
             ))}
+
 
           </div>
 

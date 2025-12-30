@@ -19,6 +19,18 @@
 }
 
 .header-nav a {
-  color: var(--text-main);
+  color: inherit;
+  /* viktigt */
   text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: var(--text-1);
+  text-decoration: underline;
+}
+
+.header-nav a:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 8px;
 }

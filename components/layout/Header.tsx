@@ -5,19 +5,17 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <div className="header-logo">
-          <p className="text-meta">HVH</p>
+          <p className="header-mark text-3">HVH</p>
         </div>
 
         <nav className="header-nav">
           <ul>
-            <li><a className="text-meta" href="#projects">Projects</a></li>
-            <li><a className="text-meta" href="#stack">Tech Stack</a></li>
+            <li><a className="text-3" href="#projects">Projects</a></li>
+            <li><a className="text-3" href="#stack">Tech Stack</a></li>
           </ul>
         </nav>
-
       </div>
     </header>
-
   );
 }
 

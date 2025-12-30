@@ -4,9 +4,10 @@ function Footer() {
   return (
     <footer className="site-footer">
       <div className="container footer-inner">
-        <p className="text-meta">© 2025 Hampus von Horn</p>
+        <p className="text-3">© 2025 Hampus von Horn</p>
       </div>
     </footer>
   );
 }
+
 export default Footer;

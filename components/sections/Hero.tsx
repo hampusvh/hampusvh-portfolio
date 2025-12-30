@@ -8,14 +8,19 @@ export default function Hero() {
       <Container>
         <div className="hero-grid">
           <div className="hero-content">
-            <p className="hero-eyebrow">
+            <p className="hero-eyebrow eyebrow">
               FRONTEND DEVELOPER · WEB SECURITY
             </p>
-            <h1 className="hero-title">Hampus von Horn</h1>
-            <p className="hero-description">
+
+            <h1 className="hero-title">
+              Hampus von Horn
+            </h1>
+
+            <p className="hero-description lead">
               I’m a React-focused frontend developer who enjoys turning ideas into clean, dependable interfaces.
               I care about clarity in design, in the code, and in how things feel to use.
-              I approach every project with a focus on stability, security, and long-term maintainability.            </p>
+              I approach every project with a focus on stability, security, and long-term maintainability.
+            </p>
 
             <div className="hero-actions">
               <button className="btn-primary">Primary action</button>
