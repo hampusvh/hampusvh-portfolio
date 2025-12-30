@@ -1,0 +1,49 @@
+.page-root {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-layer {
+    position: relative;
+    z-index: 1;
+}
+
+.atmosphere-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+
+    background:
+        /* SVG – organiskt flöde */
+        url("/graphics/background-ambient.svg") center / cover no-repeat,
+
+        /* Hero-ljus */
+        radial-gradient(1200px 600px at 70% 20%,
+            rgba(90, 140, 180, 0.08),
+            transparent 60%),
+
+        /* Flow nedåt */
+        radial-gradient(900px 900px at 30% 80%,
+            rgba(60, 110, 150, 0.05),
+            transparent 70%),
+
+        /* Djupfält */
+        radial-gradient(1600px 1000px at 50% 50%,
+            rgba(80, 120, 160, 0.03),
+            transparent 80%);
+}
+
+.atmosphere-layer {
+    background-position: center top;
+    background-size: 140% 120%;
+}
+
+.atmosphere-layer {
+    mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0.9) 40%,
+            rgba(0, 0, 0, 0.6) 60%,
+            rgba(0, 0, 0, 0.2) 80%,
+            rgba(0, 0, 0, 0) 100%);
+}

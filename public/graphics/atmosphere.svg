@@ -1,0 +1,33 @@
+<svg
+  width="2000"
+  height="1200"
+  viewBox="0 0 2000 1200"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="xMidYMid slice"
+>
+  <defs>
+    <!-- Mjuk blur -->
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="120" />
+    </filter>
+  </defs>
+
+  <!-- Organiskt fält -->
+  <ellipse
+    cx="1400"
+    cy="300"
+    rx="900"
+    ry="500"
+    fill="rgba(90,140,180,0.18)"
+    filter="url(#softBlur)"
+  />
+
+  <ellipse
+    cx="600"
+    cy="900"
+    rx="700"
+    ry="700"
+    fill="rgba(60,110,150,0.14)"
+    filter="url(#softBlur)"
+  />
+</svg>
