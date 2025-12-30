@@ -1,5 +1,6 @@
 import Container from "@/components/layout/Container";
 import ProjectCard from "@/components/ui/ProjectCard";
+import { PROJECTS, type Project } from "@/data/projects.data";
 import "@/styles/sections/projects.css";
 
 export default function Projects() {
@@ -13,13 +14,15 @@ export default function Projects() {
           </div>
 
           <div className="projects-grid">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            {PROJECTS.map((project: Project) => (
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+              />
+            ))}
+
           </div>
+
         </div>
       </Container>
     </section>
