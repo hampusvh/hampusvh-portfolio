@@ -1,5 +1,5 @@
 import Container from "@/components/layout/Container";
-import "@/styles/sections/contact.css";
+import "@/Components/sections/Contact/contact.css";
 
 export default function Contact() {
     return (

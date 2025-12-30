@@ -1,5 +1,5 @@
 import Container from "@/components/layout/Container";
-import "@/styles/sections/tech.css";
+import "@/components/sections/TechStack/tech-stack.css";
 
 export default function Tech() {
   return (

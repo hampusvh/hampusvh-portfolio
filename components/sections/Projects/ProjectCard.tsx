@@ -1,5 +1,3 @@
-import "@/styles/ui/card.css";
-
 type ProjectCardProps = {
     title: string;
     description: string;

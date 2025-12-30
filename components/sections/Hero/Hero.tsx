@@ -1,6 +1,6 @@
 import Container from "@/components/layout/Container";
-import Avatar from "@/components/ui/Avatar";
-import "@/styles/sections/hero.css";
+import Avatar from "@/components/sections/Hero/Avatar";
+import "@/components/sections/Hero/hero.css";
 
 export default function Hero() {
   return (

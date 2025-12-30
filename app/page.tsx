@@ -1,7 +1,7 @@
-import Hero from "@/components/sections/Hero";
-import Projects from "@/components/sections/Projects";
-import Tech from "@/components/sections/Tech";
-import Contact from "@/components/sections/Contact";
+import Hero from "@/components/sections/Hero/Hero";
+import Projects from "@/components/sections/Projects/Projects";
+import Tech from "@/components/sections/TechStack/TechStack";
+import Contact from "@/components/sections/Contact/Contact";
 
 export default function Page() {
   return (

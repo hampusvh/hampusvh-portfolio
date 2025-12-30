@@ -1,7 +1,7 @@
 import Container from "@/components/layout/Container";
-import ProjectCard from "@/components/ui/ProjectCard";
-import { PROJECTS, type Project } from "@/data/projects.data";
-import "@/styles/sections/projects.css";
+import ProjectCard from "@/components/sections/Projects/ProjectCard";
+import { PROJECTS, type Project } from "@/data/projects";
+import "@/components/sections/Projects/projects.css";
 
 export default function Projects() {
   return (

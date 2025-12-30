@@ -1,3 +1,23 @@
+.projects {
+    padding-block: var(--section-padding-y);
+}
+
+.projects-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.projects-header {
+    max-width: 600px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
 .project-card {
     padding: 24px;
     border-radius: 14px;
@@ -55,4 +75,25 @@
 .project-card:hover {
     border-color: rgba(255, 255, 255, 0.12);
     background: rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 1000px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .projects {
+        padding-block: 72px;
+    }
+
+    .projects-inner {
+        gap: 32px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
