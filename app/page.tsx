@@ -1,11 +1,11 @@
 import Hero from "@/components/sections/Hero/Hero";
-import Contact from "@/components/sections/Contact/Contact";
+import Projects from "@/components/sections/Projects/Projects";
 
 export default function Page() {
   return (
     <>
       <Hero />
-      <Contact />
+      <Projects />
     </>
   );
 }

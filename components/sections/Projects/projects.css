@@ -1,0 +1,78 @@
+.projects {
+    display: grid;
+    gap: 32px;
+}
+
+.projects-content {
+    max-width: 60ch;
+}
+
+.projects-eyebrow {
+    margin: 0 0 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.projects-title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.15;
+}
+
+.projects-description {
+    margin: 12px 0 0;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+.projects-list {
+    display: grid;
+    gap: 16px;
+}
+
+@media (min-width: 900px) {
+    .projects-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+}
+
+/* project item — enkel “surface” utan att du bygger cardsystem */
+.project {
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+}
+
+.project-title {
+    margin: 0;
+    font-size: 16px;
+}
+
+.project-description {
+    margin: 12px 0 0;
+    opacity: 0.85;
+    line-height: 1.6;
+}
+
+.project-meta {
+    margin-top: 16px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.project-tags {
+    margin: 0;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.project-link {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}

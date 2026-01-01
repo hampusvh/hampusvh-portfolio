@@ -19,9 +19,6 @@ export default function Hero() {
             <a href="#projects" className="hero-cta hero-cta--primary">
               View projects
             </a>
-            <a href="#contact" className="hero-cta hero-cta--secondary">
-              Contact
-            </a>
           </div>
         </div>
 

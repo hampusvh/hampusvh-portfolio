@@ -44,10 +44,9 @@
   padding: 10px 14px;
 }
 
-.hero-cta--primary {}
-
-.hero-cta--secondary {
+.hero-cta--primary {
   background: transparent;
+
 }
 
 .hero-visual {
