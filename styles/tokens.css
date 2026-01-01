@@ -1,0 +1,12 @@
+:root {
+    --bg: #0b0d10;
+    --text: rgba(255, 255, 255, 0.92);
+}
+
+:root {
+    --bg: #0b0d10;
+    --text: rgba(255, 255, 255, 0.92);
+
+    --container-width: 980px;
+    --container-padding: 24px;
+}
