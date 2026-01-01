@@ -1,38 +1,28 @@
 import Container from "@/components/layout/Container";
-import ProjectCard from "@/components/sections/Projects/ProjectCard";
-import { PROJECTS, type Project } from "@/data/projects";
+import ProjectItem from "@/components/sections/Projects/ProjectItem";
+import { PROJECTS } from "@/data/projects";
 import "@/components/sections/Projects/projects.css";
 
 export default function Projects() {
-  const visibleProjects = PROJECTS.filter(
-    (project: Project) => project.visible
-  );
+    return (
+        <section className="section section--projects" id="projects">
+            <Container>
+                <div className="projects">
+                    <div className="projects-content">
+                        <p className="projects-eyebrow">Selected work</p>
+                        <h2 className="projects-title">Projects</h2>
+                        <p className="projects-description">
+                            A small selection of work focused on frontend, security, and reliability.
+                        </p>
+                    </div>
 
-  return (
-    <section className="projects">
-      <Container>
-        <div className="projects-inner">
-          <div className="section-header">
-            <h2>Projects</h2>
-            <p className="section-description">
-              Selected work and experiments.
-            </p>
-          </div>
-
-          <div className="projects-grid">
-            {visibleProjects.map((project: Project) => (
-              <ProjectCard
-                key={project.id}
-                title={project.title}
-                description={project.description}
-                tags={project.tags}
-                repoUrl={project.repoUrl}
-                featured={project.featured}
-              />
-            ))}
-          </div>
-        </div>
-      </Container>
-    </section>
-  );
+                    <div className="projects-list" aria-label="Project list">
+                        {PROJECTS.map((p) => (
+                            <ProjectItem key={p.id} project={p} />
+                        ))}
+                    </div>
+                </div>
+            </Container>
+        </section>
+    );
 }

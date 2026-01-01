@@ -1,41 +1,40 @@
 :root {
-    /* Background */
-    --bg-page: #0d1116;
+    /* Typography */
+    --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    --fs-1: 0.875rem;
+    /* 14 */
+    --fs-2: 1rem;
+    /* 16 */
+    --fs-3: 1.125rem;
+    /* 18 */
+    --fs-4: 2rem;
+    /* 32 */
+    --fs-5: 3rem;
+    /* 48 */
 
-    /* Surfaces */
-    --surface: rgba(255, 255, 255, 0.04);
-    --surface-hover: rgba(255, 255, 255, 0.06);
-    --border: rgba(255, 255, 255, 0.08);
-    --border-hover: rgba(255, 255, 255, 0.14);
+    /* Spacing */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 72px;
 
-    /* Typography tones (HSL-ish approach, but simple) */
-    --text-strong: rgba(255, 255, 255, 0.92);
-    /* "100%" feeling */
-    --text: rgba(255, 255, 255, 0.74);
-    /* normal body */
-    --text-muted: rgba(255, 255, 255, 0.56);
-    /* secondary/meta */
     /* Radius */
-    --radius: 14px;
+    --radius-1: 10px;
+    --radius-2: 16px;
+    --radius-pill: 999px;
 
-    /* Spacing (optional, keep only what you actually use) */
-    --space-1: 8px;
-    --space-2: 12px;
-    --space-3: 16px;
-    --space-4: 24px;
-    --space-5: 32px;
-    --space-6: 48px;
+    /* Neutral palette (HSL channels) */
+    --n-950: 220 20% 6%;
+    --n-900: 220 18% 9%;
+    --n-800: 220 16% 14%;
+    --n-700: 220 12% 24%;
+    --n-200: 220 10% 72%;
+    --n-100: 220 15% 90%;
 
-    /* Sections */
-    --section-y: 96px;
-    --section-y-sm: 72px;
-
-    --focus-ring: 0 0 0 2px rgba(13, 17, 22, 0.9), 0 0 0 4px rgba(255, 255, 255, 0.18);
-}
-
-:root {
-    --accent: rgba(46, 204, 113, 0.95);
-    /* justera senare */
-    --accent-soft: rgba(46, 204, 113, 0.18);
-    --focus-ring: 0 0 0 2px rgba(13, 17, 22, 0.9), 0 0 0 4px var(--accent-soft);
+    /* Accent (valfri) */
+    --a-500: 190 90% 55%;
 }

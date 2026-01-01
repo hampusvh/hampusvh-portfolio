@@ -1,98 +1,78 @@
 .projects {
-    padding-block: var(--section-y);
-}
-
-.projects-inner {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-6);
-}
-
-.section-header {
-    max-width: 600px;
     display: grid;
-    gap: var(--space-2);
+    gap: 32px;
 }
 
-.section-description {
-    color: var(--text-muted);
+.projects-content {
+    max-width: 60ch;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-5);
+.projects-eyebrow {
+    margin: 0 0 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.7;
 }
 
-/* Card */
-.project-card {
-    padding: var(--space-4);
-    min-height: 180px;
-    display: flex;
-    flex-direction: column;
-
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: var(--radius);
-
-    transition:
-        transform 0.2s ease,
-        border-color 0.2s ease,
-        background 0.2s ease;
-}
-
-.project-card:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.12);
-    transform: translateY(-2px);
-}
-
-.project-card__title {
+.projects-title {
     margin: 0;
+    font-size: 32px;
+    line-height: 1.15;
 }
 
-.project-card__description {
-    margin-top: var(--space-2);
+.projects-description {
+    margin: 12px 0 0;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.85;
 }
 
-.project-card__footer {
-    margin-top: auto;
-    padding-top: var(--space-3);
+.projects-list {
+    display: grid;
+    gap: 16px;
+}
+
+@media (min-width: 900px) {
+    .projects-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+}
+
+/* project item — enkel “surface” utan att du bygger cardsystem */
+.project {
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+}
+
+.project-title {
+    margin: 0;
+    font-size: 16px;
+}
+
+.project-description {
+    margin: 12px 0 0;
+    opacity: 0.85;
+    line-height: 1.6;
+}
+
+.project-meta {
+    margin-top: 16px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    gap: var(--space-3);
+    gap: 12px;
 }
 
-.project-card__tags {
+.project-tags {
     margin: 0;
+    opacity: 0.7;
+    font-size: 12px;
 }
 
-.project-card__link {
-    text-decoration: none;
-}
-
-.project-card__link:hover {
+.project-link {
     text-decoration: underline;
-}
-
-@media (max-width: 1000px) {
-    .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 640px) {
-    .projects {
-        padding-block: var(--section-y-sm);
-    }
-
-    .projects-inner {
-        gap: var(--space-5);
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-        gap: var(--space-4);
-    }
+    text-underline-offset: 0.2em;
 }

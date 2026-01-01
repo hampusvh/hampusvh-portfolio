@@ -5,8 +5,7 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <div className="header-logo">
-          <p className="header-mark text-3">HVH</p>
-        </div>
+          <a className="header-mark" href="#top">HVH</a>        </div>
 
         <nav className="header-nav">
           <ul>

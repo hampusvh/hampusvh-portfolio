@@ -1,0 +1,17 @@
+:root {
+    --bg: hsl(var(--n-950));
+    --bg-elevated: hsl(var(--n-900));
+    --surface-1: hsl(var(--n-900));
+    --surface-2: hsl(var(--n-800));
+
+    --border: hsl(var(--n-700) / 0.6);
+
+    --text: hsl(var(--n-100));
+    --text-muted: hsl(var(--n-200));
+    --text-strong: hsl(var(--n-100));
+
+    --accent: hsl(var(--a-500));
+
+    /* Focus ring */
+    --focus: hsl(var(--a-500) / 0.45);
+}
