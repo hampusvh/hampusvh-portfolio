@@ -1,11 +1,9 @@
-import Hero from "@/components/sections/Hero/Hero";
-import Projects from "@/components/sections/Projects/Projects";
+import Projects from "@/components/sections/Projects";
 
 export default function Page() {
   return (
-    <>
-      <Hero />
+    <main>
       <Projects />
-    </>
+    </main>
   );
 }

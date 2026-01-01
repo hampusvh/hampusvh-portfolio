@@ -1,8 +1,0 @@
-.avatar-image {
-    width: 280px;
-    height: auto;
-    display: block;
-    opacity: 0.82;
-    filter: contrast(1.02) saturate(0.92) brightness(0.96);
-    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
-}

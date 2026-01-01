@@ -1,10 +1,6 @@
-import type { Metadata } from "next";
-import "@/styles/tokens.css";
-import "@/styles/theme.css";
-import "@/styles/global.css";
+import "./globals.css";
 
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hampus von Horn",
@@ -19,11 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main>
-          {children}
-        </main>
-        <Footer />
+
+        {children}
+
       </body>
     </html>
   );
