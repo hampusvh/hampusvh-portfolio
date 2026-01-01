@@ -1,6 +1,3 @@
-@import "../styles/typography.css";
-@import "../styles/theme.css";
-
 *,
 *::before,
 *::after {
@@ -18,8 +15,26 @@ html {
 }
 
 body {
-  padding: 0;
   background: var(--bg-page);
+  color: var(--text);
+  /* eller var(--text) om du behåller namnet */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.14);
 }
 
 main {
