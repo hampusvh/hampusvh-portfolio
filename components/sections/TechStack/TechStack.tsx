@@ -6,9 +6,9 @@ export default function Tech() {
     <section className="tech">
       <Container>
         <div className="tech-inner">
-          <div className="tech-header">
+          <div className="section-header">
             <h2>Tech Stack</h2>
-            <p className="text-2">Technologies and tools I work with.</p>
+            <p className="section-description">Technologies and tools I work with.</p>
           </div>
 
           <div className="tech-grid">

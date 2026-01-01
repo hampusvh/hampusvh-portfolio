@@ -5,6 +5,7 @@ export interface Project {
     tags: string[];
     featured: boolean;
     repoUrl?: string;
+    visible: boolean;
 }
 
 export const PROJECTS: Project[] = [
@@ -15,6 +16,7 @@ export const PROJECTS: Project[] = [
             "A secure journaling app built with React, designed around GDPR and modern web security practices.",
         tags: ["React", "Security", "GDPR"],
         featured: true,
+        visible: true,
         repoUrl: "https://github.com/hampusvh/FWK24S-WAI-Projektarbete-Frontend",
     },
     {
@@ -24,6 +26,7 @@ export const PROJECTS: Project[] = [
             "A fullstack e-commerce demo built with React, Node.js, Express and MongoDB.",
         tags: ["React", "Node.js", "Express", "MongoDB"],
         featured: true,
+        visible: true,
         repoUrl: "https://github.com/hampusvh/react-web-shop",
     },
     {
@@ -33,6 +36,7 @@ export const PROJECTS: Project[] = [
             "Backend for a Gomoku game, with game logic and API endpoints built in Node.js and Express.",
         tags: ["Node.js", "Express"],
         featured: false,
+        visible: true,
         repoUrl: "https://github.com/hampusvh/FWK24S-PLU-5iRad-backend",
     },
     {
@@ -42,6 +46,7 @@ export const PROJECTS: Project[] = [
             "A small weather app built with React that fetches real-time data from a public API.",
         tags: ["React", "API"],
         featured: false,
+        visible: false,
         repoUrl: "https://github.com/hampusvh/react-weather-tracker",
     },
     {
@@ -51,6 +56,7 @@ export const PROJECTS: Project[] = [
             "A text-based adventure game written in Python using simple decision trees and game logic.",
         tags: ["Python"],
         featured: false,
+        visible: false,
         repoUrl: "https://github.com/hampusvh/python-adventure-game",
     }
 ];

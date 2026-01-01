@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   overflow: hidden;
-  padding-block: var(--section-padding-y);
+  padding-block: var(--section-y);
   background:
     radial-gradient(800px 500px at 55% 40%,
       rgba(143, 166, 184, 0.04),
@@ -57,5 +57,5 @@
 .hero-description {
   margin-bottom: 22px;
   max-width: 56ch;
-  margin-top: var(--stack-4);
+  margin-top: var(--space-4);
 }

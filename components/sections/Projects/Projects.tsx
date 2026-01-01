@@ -4,16 +4,23 @@ import { PROJECTS, type Project } from "@/data/projects";
 import "@/components/sections/Projects/projects.css";
 
 export default function Projects() {
+  const visibleProjects = PROJECTS.filter(
+    (project: Project) => project.visible
+  );
+
   return (
     <section className="projects">
       <Container>
         <div className="projects-inner">
-          <div className="projects-header">
+          <div className="section-header">
             <h2>Projects</h2>
-            <p className="text-2">Selected work and experiments.</p>
+            <p className="section-description">
+              Selected work and experiments.
+            </p>
           </div>
+
           <div className="projects-grid">
-            {PROJECTS.map((project: Project) => (
+            {visibleProjects.map((project: Project) => (
               <ProjectCard
                 key={project.id}
                 title={project.title}
@@ -23,10 +30,7 @@ export default function Projects() {
                 featured={project.featured}
               />
             ))}
-
-
           </div>
-
         </div>
       </Container>
     </section>
