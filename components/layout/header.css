@@ -1,7 +1,12 @@
 .site-header {
-  padding-block: 16px;
-  background: rgba(0, 0, 0, 0.85);
-  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  padding-block: 14px;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .header-inner {
@@ -19,17 +24,16 @@
 }
 
 .header-nav a {
-  color: inherit;
-  /* viktigt */
-  text-decoration: none;
+  position: relative;
+  padding: 8px 10px;
+  border-radius: 10px;
 }
 
 .header-nav a:hover {
-  color: var(--text-strong);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .header-nav a:focus-visible {
   outline: none;
-  box-shadow: var(--focus-ring);
-  border-radius: 8px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.14);
 }
