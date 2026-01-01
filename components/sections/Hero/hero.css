@@ -1,7 +1,8 @@
 .hero-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: 48px;
+  gap: var(--space-7);
+  /* 48px */
   align-items: center;
 }
 
@@ -10,30 +11,39 @@
 }
 
 .hero-eyebrow {
-  margin: 0 0 12px;
+  margin: 0 0 var(--space-3);
+  /* 12px */
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-size: 12px;
-  opacity: 0.7;
+  color: var(--text-muted);
 }
 
 .hero-title {
   margin: 0;
-  font-size: 48px;
+  font-size: var(--fs-5);
+  /* 48px */
   line-height: 1.05;
+  color: var(--text-strong);
 }
 
 .hero-description {
-  margin: 16px 0 0;
-  font-size: 16px;
+  margin: var(--space-4) 0 0;
+  /* 16px */
+  font-size: var(--fs-2);
+  /* 16px */
   line-height: 1.6;
-  opacity: 0.85;
+  color: var(--text);
+  /* Om du vill ha samma "0.85" känsla kan vi göra en särskild token senare.
+     Men börja med ren semantik. */
 }
 
 .hero-actions {
   margin-top: 22px;
+  /* lämnar denna tills vi ev gör token för 20/24 */
   display: flex;
-  gap: 12px;
+  gap: var(--space-3);
+  /* 12px */
   align-items: center;
 }
 
@@ -42,15 +52,24 @@
   align-items: center;
   justify-content: center;
   padding: 10px 14px;
+  /* lämnar tills vi standardiserar knappar */
+  border-radius: var(--radius-1);
 }
 
 .hero-cta--primary {
   background: transparent;
-
 }
 
 .hero-visual {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+.hero-cta {
+  border: 1px solid var(--cta-border);
+}
+
+.hero-cta:hover {
+  background: var(--cta-hover);
 }

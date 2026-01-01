@@ -5,7 +5,7 @@ import "@/components/sections/Projects/projects.css";
 
 export default function Projects() {
     return (
-        <section className="section section--projects" id="projects">
+        <section className="section" id="projects">
             <Container>
                 <div className="projects">
                     <div className="projects-content">

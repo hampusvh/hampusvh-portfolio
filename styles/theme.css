@@ -15,3 +15,26 @@
     /* Focus ring */
     --focus: hsl(var(--a-500) / 0.45);
 }
+
+:root {
+    /* ...allt du redan har... */
+
+    /* Header */
+    --header-bg: hsl(var(--n-950) / 0.55);
+    --header-border: hsl(var(--n-100) / 0.06);
+    --header-hover: hsl(var(--n-100) / 0.06);
+}
+
+:root {
+    /* ... */
+
+    /* Footer */
+    --footer-bg: hsl(var(--n-950) / 0.35);
+    --footer-border: hsl(var(--n-100) / 0.06);
+    --footer-hover: hsl(var(--n-100) / 0.06);
+}
+
+:root {
+    --cta-border: hsl(var(--n-100) / 0.10);
+    --cta-hover: hsl(var(--n-100) / 0.06);
+}

@@ -5,12 +5,14 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <div className="header-logo">
-          <a className="header-mark" href="#top">HVH</a>        </div>
+          <a className="header-mark" href="#top">HVH</a>
+        </div>
 
         <nav className="header-nav">
           <ul>
-            <li><a className="text-3" href="#projects">Projects</a></li>
-            <li><a className="text-3" href="#stack">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            {/* Lägg tillbaka när sektionen finns */}
+            {/* <li><a href="#stack">Tech Stack</a></li> */}
           </ul>
         </nav>
       </div>

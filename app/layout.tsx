@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "@/styles/tokens.css";
 import "@/styles/theme.css";
 import "@/styles/global.css";
-import "@/styles/layout.css";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
