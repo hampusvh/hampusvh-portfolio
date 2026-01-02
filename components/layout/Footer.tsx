@@ -4,13 +4,30 @@ function Footer() {
   return (
     <footer className="site-footer" id="contact">
       <div className="container footer-inner">
-        <p className="footer-label">Get in touch</p>
-        <div className="footer-links">
-          <a href="mailto:...">Email</a>
-          <a href="https://linkedin.com/in/..." target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/..." target="_blank" rel="noreferrer">GitHub</a>
+        <div className="footer-left">
+          <p className="footer-label">Contact</p>
+          <div className="footer-links">
+            <a href="mailto:...">Email</a>
+            <a
+              href="https://www.linkedin.com/in/hampus-von-horn-4b75918a/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/hampusvh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
-        <p className="footer-copy">© 2025 Hampus von Horn</p>
+
+        <p className="footer-copy">
+          © {new Date().getFullYear()} Hampus von Horn
+        </p>
       </div>
     </footer>
   );

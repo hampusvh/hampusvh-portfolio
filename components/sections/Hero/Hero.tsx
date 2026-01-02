@@ -12,13 +12,16 @@ export default function Hero() {
 
             <h1 className="hero-title">Hampus von Horn</h1>
             <p className="hero-description">
-              I build calm, dependable interfaces with a focus on clarity,
-              security, and long-term maintainability.
+              I design and build secure, calm frontend interfaces
+              with a strong focus on clarity and long-term maintainability.
+
+              When needed, I work across the stack to ensure
+              robust security, predictable behavior, and durable systems.
             </p>
 
             <div className="hero-actions">
               <a href="#projects" className="hero-cta hero-cta--primary">
-                View projects
+                View selected projects ↓
               </a>
             </div>
           </div>

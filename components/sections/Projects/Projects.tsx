@@ -9,13 +9,8 @@ export default function Projects() {
             <Container>
                 <div className="projects">
                     <div className="projects-content">
-                        <p className="projects-eyebrow">Selected work</p>
                         <h2 className="projects-title">Projects</h2>
-                        <p className="projects-description">
-                            A small selection of work focused on frontend, security, and reliability.
-                        </p>
                     </div>
-
                     <div className="projects-list" aria-label="Project list">
                         {PROJECTS.map((p) => (
                             <ProjectItem key={p.id} project={p} />

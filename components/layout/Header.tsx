@@ -11,8 +11,7 @@ function Header() {
         <nav className="header-nav">
           <ul>
             <li><a href="#projects">Projects</a></li>
-            {/* Lägg tillbaka när sektionen finns */}
-            {/* <li><a href="#stack">Tech Stack</a></li> */}
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
