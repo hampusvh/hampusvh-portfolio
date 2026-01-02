@@ -1,4 +1,7 @@
 import "@/components/layout/footer.css";
+import { GitHubIcon } from "@/components/icons/GitHubIcon";
+import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
+import { MailIcon } from "@/components/icons/MailIcon";
 
 function Footer() {
   return (
@@ -6,21 +9,31 @@ function Footer() {
       <div className="container footer-inner">
         <div className="footer-left">
           <p className="footer-label">Contact</p>
+
           <div className="footer-links">
-            <a href="mailto:...">Email</a>
+            <a className="footer-link" href="mailto:hampus.vh@gmail.com">
+              <MailIcon width={16} height={16} />
+              <span>Email</span>
+            </a>
+
             <a
+              className="footer-link"
               href="https://www.linkedin.com/in/hampus-von-horn-4b75918a/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              LinkedIn
+              <LinkedInIcon width={16} height={16} />
+              <span>LinkedIn</span>
             </a>
+
             <a
+              className="footer-link"
               href="https://github.com/hampusvh"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              GitHub
+              <GitHubIcon width={16} height={16} />
+              <span>GitHub</span>
             </a>
           </div>
         </div>
