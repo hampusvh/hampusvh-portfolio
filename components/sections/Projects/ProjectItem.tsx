@@ -7,9 +7,12 @@ type Props = {
 
 export default function ProjectItem({ project }: Props) {
     if (!project.repoUrl) return null;
+
+    const className = project.featured ? "project project--featured" : "project";
+
     return (
         <a
-            className="project"
+            className={className}
             href={project.repoUrl}
             target="_blank"
             rel="noreferrer"
@@ -22,7 +25,8 @@ export default function ProjectItem({ project }: Props) {
                 <div className="project-meta">
                     <p className="project-tags">{project.tags.join(" · ")}</p>
                     <span className="project-destination" aria-hidden="true">
-                        <GitHubIcon width={18} height={18} />                        <span className="project-destination-label">Repository</span>
+                        <GitHubIcon width={18} height={18} />
+                        <span className="project-destination-label">Repository</span>
                     </span>
                 </div>
             </article>
