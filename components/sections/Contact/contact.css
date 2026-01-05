@@ -1,0 +1,6 @@
+.contact-title {
+    margin: 0 0 var(--space-6);
+    font-size: var(--fs-4);
+    line-height: 1.15;
+    color: var(--text-strong);
+}
