@@ -2,11 +2,13 @@ import "@/components/layout/footer.css";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { MailIcon } from "@/components/icons/MailIcon";
+import Container from "@/components/layout/Container";
+
 
 function Footer() {
   return (
-    <footer className="site-footer" id="contact">
-      <div className="container footer-inner">
+    <footer className="site-footer">
+      <Container><div className="footer-inner">
         <div className="footer-left">
           <p className="footer-label">Contact</p>
 
@@ -42,6 +44,7 @@ function Footer() {
           © {new Date().getFullYear()} Hampus von Horn
         </p>
       </div>
+      </Container>
     </footer>
   );
 }

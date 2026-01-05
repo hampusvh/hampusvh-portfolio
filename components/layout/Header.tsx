@@ -1,9 +1,10 @@
 import "@/components/layout/header.css";
+import Container from "@/components/layout/Container";
 
 function Header() {
   return (
     <header className="site-header">
-      <div className="container header-inner">
+      <Container><div className="header-inner">
         <div className="header-logo">
           <a className="header-mark" href="#top">HVH</a>
         </div>
@@ -15,6 +16,7 @@ function Header() {
           </ul>
         </nav>
       </div>
+      </Container>
     </header>
   );
 }
