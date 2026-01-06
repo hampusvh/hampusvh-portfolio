@@ -1,5 +1,6 @@
 import type { Project } from "@/data/projects";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
+import Card from "@/components/primitives/Card/Card";
 
 type Props = {
     project: Project;
@@ -11,7 +12,8 @@ export default function ProjectItem({ project }: Props) {
     const className = project.featured ? "project project--featured" : "project";
 
     return (
-        <a
+        <Card
+            as="a"
             className={className}
             href={project.repoUrl}
             target="_blank"
@@ -30,6 +32,6 @@ export default function ProjectItem({ project }: Props) {
                     </span>
                 </div>
             </article>
-        </a>
+        </Card>
     );
 }

@@ -1,0 +1,33 @@
+/* components/primitives/Card/card.css */
+
+.c-card {
+    height: 100%;
+    display: block;
+
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-1);
+    background: var(--surface-1);
+
+    color: inherit;
+    text-decoration: none;
+
+    transition: transform 140ms ease, border-color 140ms ease, background-color 140ms ease;
+}
+
+.c-card:hover {
+    transform: scale(1.015);
+    border-color: var(--border-strong, var(--border));
+    background: var(--surface-2, var(--surface-1));
+    text-decoration: none;
+}
+
+.c-card:focus-visible {
+    outline: 2px solid var(--focus, var(--text-strong));
+    outline-offset: 3px;
+}
+
+/*
+.c-card--default {}
+.c-card--elevated {}
+*/

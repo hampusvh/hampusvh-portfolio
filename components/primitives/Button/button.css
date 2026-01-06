@@ -18,10 +18,14 @@
     text-decoration: none;
 }
 
-/* Varianter (tomma i 1.0, men redo för senare) */
+/* 
+Varianter (tomma i 1.0, men redo för senare)
+
 .c-button--primary {}
 
 .c-button--secondary {}
+
+*/
 
 .c-button--ghost {
     border-color: transparent;
