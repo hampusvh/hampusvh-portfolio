@@ -2,6 +2,7 @@ import Container from "@/components/layout/Container";
 import Section from "@/components/primitives/Section/Section";
 import Avatar from "@/components/sections/Hero/Avatar/Avatar";
 import "@/components/sections/Hero/hero.css";
+import Button from "@/components/primitives/Button/Button";
 
 export default function Hero() {
   return (
@@ -21,9 +22,9 @@ export default function Hero() {
             </p>
 
             <div className="hero-actions">
-              <a href="#projects" className="hero-cta hero-cta--primary">
+              <Button as="a" href="#projects" variant="primary">
                 View selected projects ↓
-              </a>
+              </Button>
             </div>
           </div>
 
