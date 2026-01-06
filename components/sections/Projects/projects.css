@@ -1,8 +1,6 @@
-/* Projects section */
 .projects {
     display: grid;
     gap: var(--space-6);
-    margin-bottom: 200px;
 }
 
 .projects-content {

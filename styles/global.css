@@ -37,7 +37,3 @@ a {
   box-shadow: 0 0 0 3px var(--focus);
   border-radius: var(--radius-1, 8px);
 }
-
-.section {
-  padding-block: 126px;
-}

@@ -1,0 +1,18 @@
+.l-section {
+    padding-block: 96px;
+}
+
+/* Används för Hero */
+.l-section--loose {
+    padding-block: 128px;
+}
+
+/* Standard för de flesta sektioner */
+.l-section--normal {
+    padding-block: 126px;
+}
+
+/* För tätare sektioner, t.ex. Contact */
+.l-section--tight {
+    padding-block: 64px;
+}

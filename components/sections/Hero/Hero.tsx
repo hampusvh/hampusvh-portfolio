@@ -1,10 +1,11 @@
 import Container from "@/components/layout/Container";
+import Section from "@/components/primitives/Section/Section";
 import Avatar from "@/components/sections/Hero/Avatar/Avatar";
 import "@/components/sections/Hero/hero.css";
 
 export default function Hero() {
   return (
-    <section className="section" id="top">
+    <Section spacing="loose" id="top">
       <Container>
         <div className="hero-grid">
           <div className="hero-content">
@@ -31,6 +32,6 @@ export default function Hero() {
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   );
 }

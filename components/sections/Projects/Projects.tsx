@@ -1,3 +1,4 @@
+import Section from "@/components/primitives/Section/Section";
 import Container from "@/components/layout/Container";
 import ProjectItem from "@/components/sections/Projects/ProjectItem";
 import { PROJECTS } from "@/data/projects";
@@ -9,7 +10,7 @@ export default function Projects() {
         .sort((a, b) => a.order - b.order);
 
     return (
-        <section className="section" id="projects">
+        <Section spacing="normal" id="projects">
             <Container>
                 <div className="projects">
                     <div className="projects-content">
@@ -23,6 +24,6 @@ export default function Projects() {
                     </div>
                 </div>
             </Container>
-        </section>
+        </Section>
     );
 }
