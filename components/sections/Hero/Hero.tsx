@@ -1,4 +1,4 @@
-import Container from "@/components/layout/Container";
+import Container from "@/components/primitives/Container/Container";
 import Section from "@/components/primitives/Section/Section";
 import Avatar from "@/components/sections/Hero/Avatar/Avatar";
 import "@/components/sections/Hero/hero.css";

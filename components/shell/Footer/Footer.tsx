@@ -1,8 +1,8 @@
-import "@/components/layout/footer.css";
+import "@/components/shell/Footer/footer.css";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { MailIcon } from "@/components/icons/MailIcon";
-import Container from "@/components/layout/Container";
+import Container from "@/components/primitives/Container/Container";
 
 
 function Footer() {

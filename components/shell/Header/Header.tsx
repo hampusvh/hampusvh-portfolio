@@ -1,5 +1,5 @@
-import "@/components/layout/header.css";
-import Container from "@/components/layout/Container";
+import "@/components/shell/Header/header.css";
+import Container from "@/components/primitives/Container/Container";
 
 function Header() {
   return (

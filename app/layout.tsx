@@ -3,8 +3,8 @@ import "@/styles/tokens.css";
 import "@/styles/theme.css";
 import "@/styles/global.css";
 
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import Header from "@/components/shell/Header/Header";
+import Footer from "@/components/shell/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Hampus von Horn",

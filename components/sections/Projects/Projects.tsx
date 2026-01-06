@@ -1,5 +1,5 @@
 import Section from "@/components/primitives/Section/Section";
-import Container from "@/components/layout/Container";
+import Container from "@/components/primitives/Container/Container";
 import ProjectItem from "@/components/sections/Projects/ProjectItem";
 import { PROJECTS } from "@/data/projects";
 import "@/components/sections/Projects/projects.css";
