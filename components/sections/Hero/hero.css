@@ -1,7 +1,7 @@
 .hero-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: var(--space-7);
+  gap: var(--s-7);
   align-items: center;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .hero-eyebrow {
-  margin: 0 0 var(--space-3);
+  margin: 0 0 var(--s-3);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-size: 12px;
@@ -19,14 +19,14 @@
 
 .hero-title {
   margin: 0;
-  font-size: var(--fs-5);
+  font-size: var(--fs-2xl);
   line-height: 1.05;
   color: var(--text-strong);
 }
 
 .hero-description {
-  margin: var(--space-4) 0 0;
-  font-size: var(--fs-2);
+  margin: var(--s-4) 0 0;
+  font-size: var(--fs-md);
   line-height: 1.6;
   color: var(--text);
 }
@@ -34,7 +34,7 @@
 .hero-actions {
   margin-top: 22px;
   display: flex;
-  gap: var(--space-3);
+  gap: var(--s-3);
   align-items: center;
 }
 

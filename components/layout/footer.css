@@ -1,6 +1,6 @@
 .site-footer {
-    padding-block: var(--space-5);
-    border-top: 1px solid var(--footer-border);
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--outline);
     background: transparent;
 }
 
@@ -8,13 +8,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: var(--space-6);
+    gap: var(--s-6);
 }
 
 .footer-left {
     display: flex;
     align-items: center;
-    gap: var(--space-4);
+    gap: var(--s-4);
 }
 
 .footer-label {
@@ -27,7 +27,7 @@
 
 .footer-links {
     display: flex;
-    gap: var(--space-4);
+    gap: var(--s-4);
     flex-wrap: wrap;
 }
 
@@ -46,7 +46,7 @@
 
     .footer-left {
         flex-direction: column;
-        gap: var(--space-3);
+        gap: var(--s-3);
     }
 
     .footer-copy {

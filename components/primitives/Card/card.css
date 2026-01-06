@@ -1,12 +1,10 @@
-/* components/primitives/Card/card.css */
-
 .c-card {
     height: 100%;
     display: block;
 
     padding: 20px;
     border: 1px solid var(--border);
-    border-radius: var(--radius-1);
+    border-radius: var(--r-1);
     background: var(--surface-1);
 
     color: inherit;
@@ -17,17 +15,14 @@
 
 .c-card:hover {
     transform: scale(1.015);
-    border-color: var(--border-strong, var(--border));
-    background: var(--surface-2, var(--surface-1));
+
+    border-color: hsl(var(--n-700) / 0.9);
+
+    background: var(--surface-2);
     text-decoration: none;
 }
 
 .c-card:focus-visible {
-    outline: 2px solid var(--focus, var(--text-strong));
+    outline: 2px solid var(--focus);
     outline-offset: 3px;
 }
-
-/*
-.c-card--default {}
-.c-card--elevated {}
-*/
