@@ -1,7 +1,6 @@
 .projects {
     display: grid;
     gap: var(--s-6);
-    margin-bottom: 200px;
 }
 
 .projects-content {
@@ -34,19 +33,7 @@
     }
 }
 
-/* Project card (shell) */
-.project {
-    height: 100%;
-    display: block;
-    padding: 20px;
-    border: 1px solid var(--border);
-    border-radius: var(--r-1);
-    background: var(--surface-1);
-    color: inherit;
-    text-decoration: none;
-    transition: transform 140ms ease, border-color 140ms ease, background-color 140ms ease;
-}
-
+/* Project card content (Card äger shell) */
 .project>article {
     height: 100%;
     display: flex;
@@ -90,7 +77,6 @@
     line-height: 1;
 }
 
-/* Card content */
 .project-title {
     margin: 0;
     font-size: var(--fs-md);
@@ -107,16 +93,4 @@
     margin: 0;
     color: var(--text-muted);
     font-size: 12px;
-}
-
-.project:hover {
-    transform: scale(1.015);
-    border-color: hsl(var(--n-700) / 0.9);
-    background: var(--surface-2);
-    text-decoration: none;
-}
-
-.project:focus-visible {
-    outline: 2px solid var(--focus);
-    outline-offset: 3px;
 }
