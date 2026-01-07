@@ -16,13 +16,13 @@
     --hover: hsl(var(--n-100) / 0.06);
     --outline: hsl(var(--n-100) / 0.06);
 
-    /* bg subtle gradient */
+    /* ------------ Atmospheric Theme ------------
+
     --bg-base: linear-gradient(180deg,
             hsl(var(--n-950)) 0%,
             hsl(var(--n-900)) 55%,
             hsl(var(--n-950)) 100%);
 
-    /* Subtle green glows */
     --bg-smoke:
         radial-gradient(900px 520px at 70% 26%,
             hsl(var(--smoke-h) var(--smoke-s) var(--smoke-l) / calc(var(--smoke-strength) * 0.55)) 0%,
@@ -38,5 +38,6 @@
             transparent 0%,
             hsl(var(--n-950) / var(--smoke-vignette)) 76%,
             hsl(var(--n-950) / calc(var(--smoke-vignette) + 0.12)) 100%);
+            */
 
 }

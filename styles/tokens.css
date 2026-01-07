@@ -32,17 +32,15 @@
 
     --a-500: 190 90% 55%;
 
-    /* Atmospheric background ("green smoke") */
+    /* Atmospheric background theme 
+    
     --smoke-h: 160;
     --smoke-s: 55%;
     --smoke-l: 45%;
 
     --smoke-strength: 0.12;
-    /* master intensity */
     --smoke-vignette: 0.55;
-    /* edge darkening */
     --smoke-noise: 0.06;
-    /* grain visibility */
-
-
+    
+    */
 }

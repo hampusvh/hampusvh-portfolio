@@ -13,7 +13,6 @@ body {
   margin: 0;
   min-height: 100vh;
 
-  /* Keep your existing token, but layer a premium base gradient */
   background: var(--bg-base, var(--bg));
   color: var(--text);
 
@@ -21,9 +20,12 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 
+  /*
   position: relative;
+  */
 }
 
+/* 
 body::before {
   content: "";
   position: fixed;
@@ -58,7 +60,7 @@ body::after {
       transparent 1px,
       transparent 3px);
 }
-
+*/
 
 img,
 svg,
