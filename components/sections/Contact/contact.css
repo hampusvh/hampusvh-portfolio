@@ -1,8 +1,6 @@
 .contact {
-    /* Sektionkänsla: en tydlig men diskret avgränsning */
     border-top: 1px solid var(--outline);
     padding-top: var(--s-6);
-
     display: grid;
     gap: var(--s-4);
 }
@@ -16,45 +14,20 @@
 }
 
 .contact-title {
-    margin: 0;
+    margin: 0 0 var(--s-6);
     font-size: var(--fs-xl);
     line-height: 1.15;
     color: var(--text-strong);
 }
 
-.contact-description {
-    margin: var(--s-3) 0 0;
-    font-size: var(--fs-md);
-    line-height: 1.6;
-    color: var(--text);
-    max-width: 60ch;
-}
-
-.contact-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--s-3);
-}
-
-@media (min-width: 900px) {
-    .contact-actions {
-        justify-content: flex-end;
-        padding-top: 2px;
-    }
-}
-
-/* Dina knappar kan ligga kvar exakt som du har dem */
 .contact-link {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-
     padding: 10px 14px;
     border-radius: var(--r-1);
-
     border: 1px solid var(--outline);
     background: transparent;
-
     color: inherit;
     text-decoration: none;
 }
@@ -62,4 +35,30 @@
 .contact-link:hover {
     background: var(--hover);
     text-decoration: none;
+}
+
+.contact-link--primary {
+    border-color: hsl(var(--a-500) / 0.35);
+}
+
+.contact-link--primary:hover {
+    border-color: hsl(var(--a-500) / 0.55);
+}
+
+.contact-link svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: var(--text-muted);
+}
+
+.contact-link:hover svg,
+.contact-link:focus-visible svg {
+    color: var(--text-strong);
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s-3);
 }

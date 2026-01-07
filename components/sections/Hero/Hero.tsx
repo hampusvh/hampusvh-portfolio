@@ -6,7 +6,7 @@ import Button from "@/components/primitives/Button/Button";
 
 export default function Hero() {
   return (
-    <Section spacing="loose" inset={{ bottom: "normal" }} id="top">
+    <Section spacing="loose" inset={{ bottom: "tight" }} id="top">
       <Container>
         <div className="hero-grid">
           <div className="hero-content">
