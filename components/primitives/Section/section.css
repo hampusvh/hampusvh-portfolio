@@ -16,3 +16,27 @@
 .l-section--tight {
     padding-block: 64px;
 }
+
+.l-section--pt-tight {
+    padding-top: 64px;
+}
+
+.l-section--pt-normal {
+    padding-top: 126px;
+}
+
+.l-section--pt-loose {
+    padding-top: 128px;
+}
+
+.l-section--pb-tight {
+    padding-bottom: 64px;
+}
+
+.l-section--pb-normal {
+    padding-bottom: 126px;
+}
+
+.l-section--pb-loose {
+    padding-bottom: 178px;
+}

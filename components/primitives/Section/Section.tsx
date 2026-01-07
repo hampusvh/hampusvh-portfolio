@@ -1,24 +1,26 @@
 import type { ReactNode, ComponentPropsWithoutRef } from "react";
 import "@/components/primitives/Section/section.css";
 
+type Spacing = "loose" | "normal" | "tight";
+
 type SectionProps = {
     children: ReactNode;
-    spacing?: "loose" | "normal" | "tight";
-} & ComponentPropsWithoutRef<"section">;
+    spacing?: Spacing;
+    inset?: { top?: Spacing; bottom?: Spacing };
+    id?: string;
+};
 
-export default function Section({
-    children,
-    spacing = "normal",
-    className,
-    ...rest
-}: SectionProps) {
-    const classes = ["l-section", `l-section--${spacing}`, className]
-        .filter(Boolean)
-        .join(" ");
+export default function Section({ children, spacing = "normal", inset, id }: SectionProps) {
+    const top = inset?.top ?? spacing;
+    const bottom = inset?.bottom ?? spacing;
 
     return (
-        <section className={classes} {...rest}>
+        <section
+            id={id}
+            className={`l-section l-section--pt-${top} l-section--pb-${bottom}`}
+        >
             {children}
         </section>
     );
 }
+

@@ -3,6 +3,11 @@
     gap: var(--s-6);
 }
 
+.projects {
+    padding-top: var(--s-5);
+    border-top: 1px solid hsl(var(--n-100) / 0.04);
+}
+
 .projects-content {
     max-width: 60ch;
 }
