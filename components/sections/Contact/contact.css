@@ -1,6 +1,65 @@
+.contact {
+    /* Sektionkänsla: en tydlig men diskret avgränsning */
+    border-top: 1px solid var(--outline);
+    padding-top: var(--s-6);
+
+    display: grid;
+    gap: var(--s-4);
+}
+
+@media (min-width: 900px) {
+    .contact {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: start;
+        gap: var(--s-7);
+    }
+}
+
 .contact-title {
-    margin: 0 0 var(--space-6);
-    font-size: var(--fs-4);
+    margin: 0;
+    font-size: var(--fs-xl);
     line-height: 1.15;
     color: var(--text-strong);
+}
+
+.contact-description {
+    margin: var(--s-3) 0 0;
+    font-size: var(--fs-md);
+    line-height: 1.6;
+    color: var(--text);
+    max-width: 60ch;
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s-3);
+}
+
+@media (min-width: 900px) {
+    .contact-actions {
+        justify-content: flex-end;
+        padding-top: 2px;
+    }
+}
+
+/* Dina knappar kan ligga kvar exakt som du har dem */
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 14px;
+    border-radius: var(--r-1);
+
+    border: 1px solid var(--outline);
+    background: transparent;
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    background: var(--hover);
+    text-decoration: none;
 }
