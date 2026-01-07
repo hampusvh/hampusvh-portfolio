@@ -6,3 +6,17 @@
     filter: contrast(1.02) saturate(0.92) brightness(0.96);
     mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
+
+@media (max-width: 900px) {
+    .avatar-image {
+        width: 220px;
+        margin-left: auto;
+        opacity: 0.9;
+    }
+}
+
+@media (max-width: 520px) {
+    .avatar-image {
+        width: 200px;
+    }
+}

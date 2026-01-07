@@ -40,3 +40,17 @@
   background: var(--hover);
   text-decoration: none;
 }
+
+@media (max-width: 520px) {
+  .site-header {
+    padding-block: var(--s-2);
+  }
+
+  .header-nav ul {
+    gap: var(--s-2);
+  }
+
+  .header-nav a {
+    padding: var(--s-1) var(--s-2);
+  }
+}

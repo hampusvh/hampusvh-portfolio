@@ -1,18 +1,18 @@
+/* components/primitives/Section/section.css */
+
+/* Desktop defaults (kept close to your current feel) */
 .l-section {
     padding-block: 96px;
 }
 
-/* Används för Hero */
 .l-section--loose {
     padding-block: 128px;
 }
 
-/* Standard för de flesta sektioner */
 .l-section--normal {
     padding-block: 126px;
 }
 
-/* För tätare sektioner, t.ex. Contact */
 .l-section--tight {
     padding-block: 64px;
 }
@@ -37,6 +37,93 @@
     padding-bottom: 126px;
 }
 
+/* This is very large; kept as-is for desktop, but reduced below 900px/520px */
 .l-section--pb-loose {
     padding-bottom: 178px;
+}
+
+/* Tablet / phablet rhythm (fixes 521–900px being "desktop airy") */
+@media (max-width: 900px) {
+    .l-section {
+        padding-block: var(--s-6);
+    }
+
+    .l-section--tight {
+        padding-block: var(--s-5);
+    }
+
+    .l-section--normal {
+        padding-block: var(--s-6);
+    }
+
+    .l-section--loose {
+        padding-block: var(--s-7);
+    }
+
+    .l-section--pt-tight {
+        padding-top: var(--s-5);
+    }
+
+    .l-section--pt-normal {
+        padding-top: var(--s-6);
+    }
+
+    .l-section--pt-loose {
+        padding-top: var(--s-7);
+    }
+
+    .l-section--pb-tight {
+        padding-bottom: var(--s-5);
+    }
+
+    .l-section--pb-normal {
+        padding-bottom: var(--s-6);
+    }
+
+    .l-section--pb-loose {
+        padding-bottom: var(--s-7);
+    }
+}
+
+/* Phone rhythm (tighter) */
+@media (max-width: 520px) {
+    .l-section {
+        padding-block: var(--s-5);
+    }
+
+    .l-section--tight {
+        padding-block: var(--s-4);
+    }
+
+    .l-section--normal {
+        padding-block: var(--s-5);
+    }
+
+    .l-section--loose {
+        padding-block: var(--s-6);
+    }
+
+    .l-section--pt-tight {
+        padding-top: var(--s-4);
+    }
+
+    .l-section--pt-normal {
+        padding-top: var(--s-5);
+    }
+
+    .l-section--pt-loose {
+        padding-top: var(--s-6);
+    }
+
+    .l-section--pb-tight {
+        padding-bottom: var(--s-4);
+    }
+
+    .l-section--pb-normal {
+        padding-bottom: var(--s-5);
+    }
+
+    .l-section--pb-loose {
+        padding-bottom: var(--s-6);
+    }
 }

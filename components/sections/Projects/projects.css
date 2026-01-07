@@ -1,9 +1,6 @@
 .projects {
     display: grid;
     gap: var(--s-6);
-}
-
-.projects {
     padding-top: var(--s-5);
     border-top: 1px solid hsl(var(--n-100) / 0.04);
 }
@@ -98,4 +95,39 @@
     margin: 0;
     color: var(--text-muted);
     font-size: 12px;
+}
+
+@media (max-width: 520px) {
+    .projects {
+        gap: var(--s-5);
+        padding-top: var(--s-4);
+    }
+
+    .projects-title {
+        margin-bottom: var(--s-4);
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+
+    .projects-description {
+        font-size: 0.98rem;
+        line-height: 1.55;
+    }
+
+    .project-meta {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: var(--s-2);
+    }
+
+    .project-destination {
+        opacity: 1;
+        pointer-events: auto;
+        color: var(--text-muted);
+        transition: none;
+        transform: none;
+    }
+
+    .projects-list {
+        gap: var(--s-3);
+    }
 }

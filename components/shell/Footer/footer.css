@@ -10,3 +10,9 @@
     font-size: 13px;
     text-align: center;
 }
+
+@media (max-width: 520px) {
+    .site-footer {
+        padding-block: var(--s-5);
+    }
+}

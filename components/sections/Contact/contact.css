@@ -32,9 +32,19 @@
     text-decoration: none;
 }
 
-.contact-link:hover {
-    background: var(--hover);
-    text-decoration: none;
+@media (hover: hover) and (pointer: fine) {
+    .contact-link:hover {
+        background: var(--hover);
+        text-decoration: none;
+    }
+
+    .contact-link--primary:hover {
+        border-color: hsl(var(--a-500) / 0.55);
+    }
+
+    .contact-link:hover svg {
+        color: var(--text-strong);
+    }
 }
 
 .contact-link--primary {
@@ -61,4 +71,20 @@
     display: flex;
     flex-wrap: wrap;
     gap: var(--s-3);
+}
+
+@media (max-width: 520px) {
+    .contact {
+        padding-top: var(--s-5);
+        gap: var(--s-3);
+    }
+
+    .contact-title {
+        margin-bottom: var(--s-4);
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+
+    .contact-actions {
+        gap: var(--s-2);
+    }
 }
