@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: "chat",
-        title: "React Chat App",
+        title: "Chat Application",
         description:
             "Secure chat app built with React, focusing on authentication, protected routes, and safe message handling.",
         tags: ["React", "Security", "JWT", "CSRF"],
