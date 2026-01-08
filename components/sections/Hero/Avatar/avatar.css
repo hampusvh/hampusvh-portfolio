@@ -10,13 +10,14 @@
 @media (max-width: 900px) {
     .avatar-image {
         width: 220px;
-        margin-left: auto;
+        margin-inline: auto;
         opacity: 0.9;
     }
 }
 
 @media (max-width: 520px) {
     .avatar-image {
-        width: 200px;
+        width: min(180px, 60vw);
+        margin-inline: auto;
     }
 }

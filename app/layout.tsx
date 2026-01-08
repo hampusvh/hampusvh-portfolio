@@ -9,6 +9,7 @@ import Footer from "@/components/shell/Footer/Footer";
 export const metadata: Metadata = {
   title: "Hampus von Horn",
   description: "Developer Portfolio",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({

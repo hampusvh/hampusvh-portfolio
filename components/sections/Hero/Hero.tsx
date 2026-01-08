@@ -21,9 +21,9 @@ export default function Hero() {
               robust security, predictable behavior, and durable systems.
             </p>
 
-            <div className="hero-actions">
+            <div className="hero-actions" aria-label="Hero actions">
               <Button as="a" href="#projects" variant="primary">
-                View selected projects ↓
+                View selected projects
               </Button>
             </div>
           </div>

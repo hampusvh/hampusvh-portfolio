@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: "webshop",
-        title: "Web Shop",
+        title: "Webshop Application",
         description:
             "Fullstack e-commerce application with a custom REST API, authentication, and product management.",
         tags: ["React", "Node.js", "Express", "MongoDB"],
@@ -55,7 +55,6 @@ export const PROJECTS: Project[] = [
         repoUrl: "https://github.com/hampusvh/FWK24S-PLU-5iRad-backend",
     },
 
-    // Valfria – antingen sätt visible:true och order 5/6, eller låt dem vara dolda
     {
         id: "adventure",
         title: "Text-Based Adventure (Python)",
@@ -69,7 +68,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: "weather",
-        title: "Weather Tracker",
+        title: "Weather Application",
         description:
             "Lightweight React app consuming a public weather API.",
         tags: ["React", "API"],
