@@ -6,9 +6,8 @@ function Header() {
     <header className="site-header">
       <Container><div className="header-inner">
         <div className="header-logo">
-          <a className="header-mark" href="#top">HVH</a>
+          <div className="header-mark">HVH</div>
         </div>
-
         <nav className="header-nav">
           <ul>
             <li><a href="#projects">Projects</a></li>

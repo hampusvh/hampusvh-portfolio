@@ -2,13 +2,9 @@
   position: relative;
   top: 0;
   z-index: 10;
-
   padding-block: var(--s-3);
-
   background: hsl(var(--n-950) / 0.55);
-
   backdrop-filter: blur(10px);
-
   border-bottom: 1px solid var(--outline);
 }
 
@@ -18,8 +14,14 @@
   justify-content: space-between;
 }
 
+.header-mark {
+  color: var(--text-muted);
+}
+
 .header-mark:hover {
   text-decoration: none;
+  color: hsl(176 70% 42% / 0.85);
+  cursor: pointer;
 }
 
 .header-nav ul {
@@ -34,11 +36,13 @@
   position: relative;
   padding: var(--s-2) var(--s-3);
   border-radius: var(--r-1);
+  color: var(--text-muted);
 }
 
 .header-nav a:hover {
-  background: var(--hover);
+  background: none;
   text-decoration: none;
+  color: hsl(176 70% 42% / 0.85);
 }
 
 @media (max-width: 520px) {

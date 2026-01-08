@@ -88,13 +88,14 @@
 .project-description {
     margin: var(--s-3) 0 0;
     line-height: 1.6;
-    color: var(--text);
+    color: var(--text-muted);
 }
 
 .project-tags {
     margin: 0;
-    color: var(--text-muted);
+    color: hsl(176 70% 42% / 0.85);
     font-size: 12px;
+    letter-spacing: 0.02rem;
 }
 
 @media (max-width: 520px) {
