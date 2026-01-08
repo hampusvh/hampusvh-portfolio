@@ -13,12 +13,10 @@ export default function Hero() {
             <p className="hero-eyebrow">Frontend Developer · Web Security</p>
 
             <h1 className="hero-title">Hampus von Horn</h1>
-            <p className="hero-description">
-              I design and build secure, calm frontend interfaces
-              with a strong focus on clarity and long-term maintainability.
 
-              When needed, I work across the stack to ensure
-              robust security, predictable behavior, and durable systems.
+            <p className="hero-description">
+              I build frontend interfaces with a strong focus on web security, structure, and clarity.
+              I’m particularly interested in UX/UI and enjoy working across design, APIs, and backend integrations to create predictable, maintainable systems.
             </p>
 
             <div className="hero-actions" aria-label="Hero actions">
