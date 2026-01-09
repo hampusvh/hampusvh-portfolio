@@ -20,7 +20,7 @@
 
 .header-mark:hover {
   text-decoration: none;
-  color: hsl(176 70% 42% / 0.85);
+  color: var(--link-accent);
   cursor: pointer;
 }
 
@@ -42,7 +42,7 @@
 .header-nav a:hover {
   background: none;
   text-decoration: none;
-  color: hsl(176 70% 42% / 0.85);
+  color: var(--link-accent);
 }
 
 @media (max-width: 520px) {

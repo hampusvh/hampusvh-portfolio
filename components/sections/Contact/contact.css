@@ -58,14 +58,14 @@
 
 @media (hover: hover) and (pointer: fine) {
     .contact-link:hover svg {
-        fill: hsl(176 70% 42%);
-        color: hsl(176 70% 42%);
+        fill: var(--link-accent);
+        color: var(--link-accent);
     }
 }
 
 .contact-link:focus-visible svg {
-    fill: hsl(188 68% 56%);
-    color: hsl(188 68% 56%);
+    color: var(--link-accent);
+    color: var(--link-accent);
 }
 
 .contact-link svg {

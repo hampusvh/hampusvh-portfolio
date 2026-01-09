@@ -35,7 +35,8 @@
     }
 }
 
-/* Project card content (Card äger shell) */
+/* Project card content */
+
 .project>article {
     height: 100%;
     display: flex;
@@ -93,7 +94,7 @@
 
 .project-tags {
     margin: 0;
-    color: hsl(176 70% 42% / 0.85);
+    color: var(--link-accent);
     font-size: 12px;
     letter-spacing: 0.02rem;
 }
@@ -116,8 +117,14 @@
 
     .project-meta {
         flex-wrap: wrap;
+        gap: var(--s-2);
         justify-content: flex-start;
-        row-gap: var(--s-2);
+    }
+
+    .project-tags {
+        flex: 0 0 100%;
+        width: 100%;
+        min-width: 0;
     }
 
     .project-destination {
@@ -126,6 +133,8 @@
         color: var(--text-muted);
         transition: none;
         transform: none;
+        margin-left: auto;
+        white-space: nowrap;
     }
 
     .projects-list {
